@@ -22,7 +22,7 @@ headingLevel: 2
 
 Base URLs:
 
-* <a href="//localhost:3000">//localhost:3000</a>
+* <a href="https://www.levantineceramics.org/">https://www.levantineceramics.org/</a>
 
 <h1 id="api-title-wares">wares</h1>
 
@@ -42,7 +42,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.patch '/localhost:3000/api/v1/wares/{id}',
+result = RestClient.patch 'https://www.levantineceramics.org/api/v1/wares/{id}',
   params: {
   }, headers: headers
 
@@ -105,7 +105,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/wares/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/wares/{id}',
   params: {
   }
 
@@ -147,7 +147,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/wares',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/wares',
   params: {
   }, headers: headers
 
@@ -209,7 +209,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/wares',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/wares',
   params: {
   }
 
@@ -249,7 +249,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/vessels/bulk_insert',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/vessels/bulk_insert',
   params: {
   }, headers: headers
 
@@ -408,7 +408,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.patch '/localhost:3000/api/v1/vessels/{id}',
+result = RestClient.patch 'https://www.levantineceramics.org/api/v1/vessels/{id}',
   params: {
   }, headers: headers
 
@@ -528,7 +528,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/vessels/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/vessels/{id}',
   params: {
   }
 
@@ -570,7 +570,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/vessels',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/vessels',
   params: {
   }, headers: headers
 
@@ -689,7 +689,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/vessels',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/vessels',
   params: {
   }
 
@@ -729,7 +729,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/petrographics/bulk_insert',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/petrographics/bulk_insert',
   params: {
   }, headers: headers
 
@@ -858,7 +858,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.patch '/localhost:3000/api/v1/petrographics/{id}',
+result = RestClient.patch 'https://www.levantineceramics.org/api/v1/petrographics/{id}',
   params: {
   }, headers: headers
 
@@ -957,7 +957,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/petrographics/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/petrographics/{id}',
   params: {
   }
 
@@ -999,7 +999,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/petrographics',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/petrographics',
   params: {
   }, headers: headers
 
@@ -1097,7 +1097,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/petrographics',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/petrographics',
   params: {
   }
 
@@ -1137,7 +1137,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.patch '/localhost:3000/api/v1/kilns/{id}',
+result = RestClient.patch 'https://www.levantineceramics.org/api/v1/kilns/{id}',
   params: {
   }, headers: headers
 
@@ -1216,7 +1216,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/kilns/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/kilns/{id}',
   params: {
   }
 
@@ -1258,7 +1258,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/kilns',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/kilns',
   params: {
   }, headers: headers
 
@@ -1336,7 +1336,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/kilns',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/kilns',
   params: {
   }
 
@@ -1376,7 +1376,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.patch '/localhost:3000/api/v1/petrofabrics/{id}',
+result = RestClient.patch 'https://www.levantineceramics.org/api/v1/petrofabrics/{id}',
   params: {
   }, headers: headers
 
@@ -1447,7 +1447,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/petrofabrics/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/petrofabrics/{id}',
   params: {
   }
 
@@ -1489,7 +1489,7 @@ headers = {
   'Content-Type' => 'application/x-www-form-urlencoded'
 }
 
-result = RestClient.post '/localhost:3000/api/v1/petrofabrics',
+result = RestClient.post 'https://www.levantineceramics.org/api/v1/petrofabrics',
   params: {
   }, headers: headers
 
@@ -1561,7 +1561,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/petrofabrics',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/petrofabrics',
   params: {
   }
 
@@ -1597,7 +1597,7 @@ Operations about shapes
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/shapes/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/shapes/{id}',
   params: {
   }
 
@@ -1635,7 +1635,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/shapes',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/shapes',
   params: {
   }
 
@@ -1671,7 +1671,7 @@ Operations about sites
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/sites/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/sites/{id}',
   params: {
   }
 
@@ -1709,7 +1709,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/sites',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/sites',
   params: {
   }
 
@@ -1745,7 +1745,7 @@ Operations about references
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/references/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/references/{id}',
   params: {
   }
 
@@ -1783,7 +1783,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/references',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/references',
   params: {
   }
 
@@ -1819,7 +1819,7 @@ Operations about periods
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/periods/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/periods/{id}',
   params: {
   }
 
@@ -1857,7 +1857,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/periods',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/periods',
   params: {
   }
 
@@ -1893,7 +1893,7 @@ Operations about period_categories
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/period_categories/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/period_categories/{id}',
   params: {
   }
 
@@ -1931,7 +1931,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/period_categories',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/period_categories',
   params: {
   }
 
@@ -1967,7 +1967,7 @@ Operations about images
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/images/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/images/{id}',
   params: {
   }
 
@@ -2005,7 +2005,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/images',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/images',
   params: {
   }
 
@@ -2041,7 +2041,7 @@ Operations about functional_categories
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/functional_categories/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/functional_categories/{id}',
   params: {
   }
 
@@ -2079,7 +2079,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/functional_categories',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/functional_categories',
   params: {
   }
 
@@ -2115,7 +2115,7 @@ Operations about contributors
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/contributors/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/contributors/{id}',
   params: {
   }
 
@@ -2153,7 +2153,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/contributors',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/contributors',
   params: {
   }
 
@@ -2189,7 +2189,7 @@ Operations about citations
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/citations/{id}',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/citations/{id}',
   params: {
   }
 
@@ -2227,7 +2227,7 @@ This operation does not require authentication
 require 'rest-client'
 require 'json'
 
-result = RestClient.get '/localhost:3000/api/v1/citations',
+result = RestClient.get 'https://www.levantineceramics.org/api/v1/citations',
   params: {
   }
 
