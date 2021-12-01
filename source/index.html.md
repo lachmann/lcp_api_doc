@@ -28,11 +28,16 @@ Base URLs:
 _The Levantine Ceramics Project_ (LCP) is an open, interactive website focused on ceramics produced in the Levant from the Neolithic era (c. 5500 B.C.E.) through the Ottoman period (c. 1920 C.E.). Here you can submit and find information—whether long published or newly discovered—about ceramic wares, shapes, specific vessels, scientific analyses, kiln sites, and chronology. The LCP makes it simple to access, share, use, and refine data, to link scholars and to foster collaborative research. **Watch a brief video about the LCP** [here](https://www.youtube.com/watch?v=kFk_7f4B1vY).
 
 <h1 id="authentitation">Authentication</h1>
+<aside class="warning">
+  Every endpoint requires authentiation
+</aside>
+
 The Levantine Ceramics Project expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
 `Authorization: Bearer <token>`
 
-<h1 id="api-title-wares">wares</h1>
+
+<h1 id="api-title-wares">Ware</h1>
 
 Operations about wares
 
@@ -99,10 +104,6 @@ save_version: string
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Update a ware|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1WaresId
 
 <a id="opIdgetApiV1WaresId"></a>
@@ -136,10 +137,6 @@ Return a ware
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a ware|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 ## postApiV1Wares
 
@@ -203,10 +200,6 @@ save_version: string
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a ware|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Wares
 
 <a id="opIdgetApiV1Wares"></a>
@@ -234,10 +227,6 @@ Return all wares
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all wares|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-vessels">vessels</h1>
 
@@ -398,10 +387,6 @@ Bulk insert vessels
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Bulk insert vessels|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## patchApiV1VesselsId
 
 <a id="opIdpatchApiV1VesselsId"></a>
@@ -522,10 +507,6 @@ shape_id: string
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Update a vessel|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1VesselsId
 
 <a id="opIdgetApiV1VesselsId"></a>
@@ -559,10 +540,6 @@ Return a vessel
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a vessel|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 ## postApiV1Vessels
 
@@ -683,10 +660,6 @@ shape_id: string
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a vessel|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Vessels
 
 <a id="opIdgetApiV1Vessels"></a>
@@ -714,10 +687,6 @@ Return all vessels
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all vessels|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-petrographics">petrographics</h1>
 
@@ -848,10 +817,6 @@ Bulk insert petrographics
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Bulk insert petrographics|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## patchApiV1PetrographicsId
 
 <a id="opIdpatchApiV1PetrographicsId"></a>
@@ -951,10 +916,6 @@ acknowledgement: string
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Update a petrographic|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1PetrographicsId
 
 <a id="opIdgetApiV1PetrographicsId"></a>
@@ -988,10 +949,6 @@ Return a petrographic
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a petrographic|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 ## postApiV1Petrographics
 
@@ -1091,10 +1048,6 @@ acknowledgement: string
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a petrographic|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Petrographics
 
 <a id="opIdgetApiV1Petrographics"></a>
@@ -1122,10 +1075,6 @@ Return all petrographics
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all petrographics|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-kilns">kilns</h1>
 
@@ -1210,10 +1159,6 @@ save_version: string
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Update a kiln|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1KilnsId
 
 <a id="opIdgetApiV1KilnsId"></a>
@@ -1247,10 +1192,6 @@ Return a kiln
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a kiln|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 ## postApiV1Kilns
 
@@ -1330,10 +1271,6 @@ save_version: string
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a kiln|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Kilns
 
 <a id="opIdgetApiV1Kilns"></a>
@@ -1361,10 +1298,6 @@ Return all kilns
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all kilns|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-petrofabrics">petrofabrics</h1>
 
@@ -1441,10 +1374,6 @@ save_version: string
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Update a petrofabric|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1PetrofabricsId
 
 <a id="opIdgetApiV1PetrofabricsId"></a>
@@ -1478,10 +1407,6 @@ Return a petrofabric
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a petrofabric|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 ## postApiV1Petrofabrics
 
@@ -1555,10 +1480,6 @@ save_version: string
 |---|---|---|---|
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a petrofabric|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Petrofabrics
 
 <a id="opIdgetApiV1Petrofabrics"></a>
@@ -1586,10 +1507,6 @@ Return all petrofabrics
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all petrofabrics|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-shapes">shapes</h1>
 
@@ -1629,10 +1546,6 @@ Return a shape
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a shape|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Shapes
 
 <a id="opIdgetApiV1Shapes"></a>
@@ -1660,10 +1573,6 @@ Return all shapes
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all shapes|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-sites">sites</h1>
 
@@ -1703,10 +1612,6 @@ Return a site
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a site|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Sites
 
 <a id="opIdgetApiV1Sites"></a>
@@ -1734,10 +1639,6 @@ Return all sites
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all sites|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-references">references</h1>
 
@@ -1777,10 +1678,6 @@ Return a reference
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a reference|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1References
 
 <a id="opIdgetApiV1References"></a>
@@ -1808,10 +1705,6 @@ Return all references
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all references|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-periods">periods</h1>
 
@@ -1851,10 +1744,6 @@ Return a period
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a period|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Periods
 
 <a id="opIdgetApiV1Periods"></a>
@@ -1882,10 +1771,6 @@ Return all periods
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all periods|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-period_categories">period_categories</h1>
 
@@ -1925,10 +1810,6 @@ Return a Period category
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Period category|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1PeriodCategories
 
 <a id="opIdgetApiV1PeriodCategories"></a>
@@ -1956,10 +1837,6 @@ Return all Period categories
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Period categories|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-images">images</h1>
 
@@ -1999,10 +1876,6 @@ Return a Image
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Image|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Images
 
 <a id="opIdgetApiV1Images"></a>
@@ -2030,10 +1903,6 @@ Return all Images
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Images|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-functional_categories">functional_categories</h1>
 
@@ -2073,10 +1942,6 @@ Return a Functional category
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Functional category|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1FunctionalCategories
 
 <a id="opIdgetApiV1FunctionalCategories"></a>
@@ -2104,10 +1969,6 @@ Return all Functional categories
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Functional categories|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-contributors">contributors</h1>
 
@@ -2147,10 +2008,6 @@ Return a Contributor
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Contributor|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Contributors
 
 <a id="opIdgetApiV1Contributors"></a>
@@ -2178,10 +2035,6 @@ Return all Contributors
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Contributors|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
 <h1 id="api-title-citations">citations</h1>
 
@@ -2221,10 +2074,6 @@ Return a Citation
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Citation|None|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
 ## getApiV1Citations
 
 <a id="opIdgetApiV1Citations"></a>
@@ -2252,8 +2101,4 @@ Return all Citations
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Citations|None|
-
-<aside class="success">
-This operation does not require authentication
-</aside>
 
