@@ -1,8 +1,7 @@
 <h1 id="api-title-contributors">Contributors</h1>
 
-Operations about contributors
-
-## getApiV1ContributorsId
+## Get a Contributor
+`GET /api/v1/contributors/{id}`
 
 <a id="opIdgetApiV1ContributorsId"></a>
 
@@ -20,10 +19,6 @@ p JSON.parse(result)
 
 ```
 
-`GET /api/v1/contributors/{id}`
-
-Return a Contributor
-
 <h3 id="getapiv1contributorsid-parameters">Parameters</h3>
 
 |Name|In|Type|Required|Description|
@@ -36,7 +31,8 @@ Return a Contributor
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a Contributor|None|
 
-## getApiV1Contributors
+## Get all Contributors
+`GET /api/v1/contributors`
 
 <a id="opIdgetApiV1Contributors"></a>
 
@@ -53,10 +49,6 @@ result = RestClient.get 'https://www.levantineceramics.org/api/v1/contributors',
 p JSON.parse(result)
 
 ```
-
-`GET /api/v1/contributors`
-
-Return all Contributors
 
 <h3 id="getapiv1contributors-responses">Responses</h3>
 
