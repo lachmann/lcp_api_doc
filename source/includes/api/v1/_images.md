@@ -25,7 +25,7 @@ p JSON.parse(result)
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all Images|None|
 
-## Get a Image
+## Get an Image
 `GET /api/v1/images/{id}`
 
 <a id="opIdgetApiV1ImagesId"></a>
