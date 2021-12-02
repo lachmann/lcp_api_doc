@@ -1,6 +1,7 @@
 <h1 id="api-title-wares">Wares</h1>
 
 ## List all wares
+`GET /api/v1/wares`
 
 <a id="opIdgetApiV1Wares"></a>
 
@@ -18,7 +19,12 @@ p JSON.parse(result)
 
 ```
 
-`GET /api/v1/wares`
+> Code samples
+
+```shell
+curl "localhost:3000/api/v1/wares?page=1&per_page=5" \
+  -H "Authorization: Bearer <token>"
+```
 
 <h3 id="getapiv1wares-responses">Responses</h3>
 
@@ -27,6 +33,7 @@ p JSON.parse(result)
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return all wares|None|
 
 ## Get a ware
+`GET /api/v1/wares/{id}`
 
 <a id="opIdgetApiV1WaresId"></a>
 
@@ -44,7 +51,10 @@ p JSON.parse(result)
 
 ```
 
-`GET /api/v1/wares/{id}`
+```shell
+curl "localhost:3000/api/v1/wares/:id" \
+  -H "Authorization: Bearer <token>"
+```
 
 <h3 id="getapiv1waresid-parameters">Parameters</h3>
 
@@ -59,6 +69,7 @@ p JSON.parse(result)
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Return a ware|None|
 
 ## Create a ware
+`POST /api/v1/wares`
 
 <a id="opIdpostApiV1Wares"></a>
 
@@ -80,7 +91,12 @@ p JSON.parse(result)
 
 ```
 
-`POST /api/v1/wares`
+```shell
+curl -X POST "localhost:3000/api/v1/wares" \
+  -H "Authorization: Bearer <token>" \
+  -H "Content-Type: application/json" \
+  -d '{ "name": "A mistery ware", "alternative_name": "Alternative name", "definition": "Magical", "desc": "Name", "chron_range": "Once upon a time", "period": "", "privacy_status": 1,"acknowledgement": "Found by X", "save_version": false }'
+```
 
 > Body parameter
 
@@ -93,7 +109,7 @@ chron_range: string
 period: string
 privacy_status: string
 acknowledgement: string
-save_version: string
+save_version: boolean
 
 ```
 
@@ -109,7 +125,7 @@ save_version: string
 |period|body|string|false|Period of the ware|
 |privacy_status|body|string|false|Privacy status of the ware|
 |acknowledgement|body|string|false|Acknowledgement of the ware|
-|save_version|body|string|false|Save version of the ware|
+|save_version|body|boolean|false|Save version of the ware|
 
 <h3 id="postapiv1wares-responses">Responses</h3>
 
@@ -118,6 +134,7 @@ save_version: string
 |201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Create a ware|None|
 
 ## Update a ware
+`PATCH /api/v1/wares/{id}`
 
 <a id="opIdpatchApiV1WaresId"></a>
 
@@ -138,8 +155,12 @@ result = RestClient.patch 'https://www.levantineceramics.org/api/v1/wares/{id}',
 p JSON.parse(result)
 
 ```
-
-`PATCH /api/v1/wares/{id}`
+```shell
+curl -X PATCH "localhost:3000/api/v1/wares/:id" \
+  -H "Authorization: Bearer <token>" \
+  -H "Content-Type: application/json" \
+  -d '{ "name": "New name", "alternative_name": "New Alternative name", "definition": "Magical", "desc": "Name", "chron_range": "Once upon a time", "period": "", "privacy_status": 1,"acknowledgement": "Found by X", "save_version": false }'
+```
 
 > Body parameter
 
@@ -169,7 +190,7 @@ save_version: string
 |period|body|string|false|Period of the ware|
 |privacy_status|body|string|false|Privacy status of the ware|
 |acknowledgement|body|string|false|Acknowledgement of the ware|
-|save_version|body|string|false|Save version of the ware|
+|save_version|body|boolean|false|Save version of the ware|
 
 <h3 id="patchapiv1waresid-responses">Responses</h3>
 

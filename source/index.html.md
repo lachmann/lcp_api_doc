@@ -1,11 +1,8 @@
 ---
 title: API v1
 language_tabs:
-  - ruby: Ruby
-  - curl: Shell
-language_clients:
-  - ruby: ""
-  - curl: ""
+  - ruby
+  - shell
 toc_footers: []
 includes: [
   api/v1/wares,
