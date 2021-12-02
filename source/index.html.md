@@ -36,7 +36,7 @@ headingLevel: 2
 
 Base URLs:
 
-* <a href="https://www.levantineceramics.org/">https://www.levantineceramics.org/</a>
+<a href="https://www.levantineceramics.org/">https://www.levantineceramics.org/</a>
 
 <h1 id="authentitation">Introduction</h1>
 _The Levantine Ceramics Project_ (LCP) is an open, interactive website focused on ceramics produced in the Levant from the Neolithic era (c. 5500 B.C.E.) through the Ottoman period (c. 1920 C.E.). Here you can submit and find information—whether long published or newly discovered—about ceramic wares, shapes, specific vessels, scientific analyses, kiln sites, and chronology. The LCP makes it simple to access, share, use, and refine data, to link scholars and to foster collaborative research. **Watch a brief video about the LCP** [here](https://www.youtube.com/watch?v=kFk_7f4B1vY).
@@ -49,3 +49,18 @@ _The Levantine Ceramics Project_ (LCP) is an open, interactive website focused o
 The Levantine Ceramics Project expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
 `Authorization: Bearer <token>`
+
+<h1 id="pagination">Pagination</h1>
+Listing resource endpoints support pagination via query params
+
+|Name|Type|Required|Description|
+|---|---|---|---|
+|page|number|false|Page number, default: 1|
+|per_page|number|false|Number of records per page, default: 100|
+
+> Code samples
+
+```shell
+curl "localhost:3000/api/v1/periods?page=1&per_page=1" \
+  -H "Authorization: Bearer <token>"
+```
