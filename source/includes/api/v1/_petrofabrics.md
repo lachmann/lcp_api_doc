@@ -53,19 +53,19 @@ save_version: string
 |---|---|---|---|---|
 |id|path|string|true|Id of the petrofabric|
 |body|body|object|false|none|
-|» name|body|string|false|Name of the petrofabric|
-|» desc|body|string|false|Desc of the petrofabric|
-|» petrographic_id|body|string|false|Petrographic of the petrofabric|
-|» raw_material|body|string|false|Raw material of the petrofabric|
-|» geo_form|body|string|false|Geo form of the petrofabric|
-|» privacy_status|body|string|false|Privacy status of the petrofabric|
-|» ware_id|body|string|false|Ware of the petrofabric|
-|» workshop_id|body|string|false|Workshop of the petrofabric|
-|» start_year|body|string|false|Start year of the petrofabric|
-|» end_year|body|string|false|End year of the petrofabric|
-|» definition|body|string|false|Definition of the petrofabric|
-|» acknowledgement|body|string|false|Acknowledgement of the petrofabric|
-|» save_version|body|string|false|Save version of the petrofabric|
+|name|body|string|false|Name of the petrofabric|
+|desc|body|string|false|Desc of the petrofabric|
+|petrographic_id|body|string|false|Petrographic of the petrofabric|
+|raw_material|body|string|false|Raw material of the petrofabric|
+|geo_form|body|string|false|Geo form of the petrofabric|
+|privacy_status|body|string|false|Privacy status of the petrofabric|
+|ware_id|body|string|false|Ware of the petrofabric|
+|workshop_id|body|string|false|Workshop of the petrofabric|
+|start_year|body|string|false|Start year of the petrofabric|
+|end_year|body|string|false|End year of the petrofabric|
+|definition|body|string|false|Definition of the petrofabric|
+|acknowledgement|body|string|false|Acknowledgement of the petrofabric|
+|save_version|body|string|false|Save version of the petrofabric|
 
 <h3 id="patchapiv1petrofabricsid-responses">Responses</h3>
 
@@ -157,21 +157,21 @@ save_version: string
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|body|body|object|true|none|
-|» name|body|string|true|Name of the petrofabric|
-|» id|body|string|false|Id of the petrofabric|
-|» desc|body|string|false|Desc of the petrofabric|
-|» petrographic_id|body|string|false|Petrographic of the petrofabric|
-|» raw_material|body|string|false|Raw material of the petrofabric|
-|» geo_form|body|string|false|Geo form of the petrofabric|
-|» privacy_status|body|string|false|Privacy status of the petrofabric|
-|» ware_id|body|string|false|Ware of the petrofabric|
-|» workshop_id|body|string|false|Workshop of the petrofabric|
-|» start_year|body|string|false|Start year of the petrofabric|
-|» end_year|body|string|false|End year of the petrofabric|
-|» definition|body|string|false|Definition of the petrofabric|
-|» acknowledgement|body|string|false|Acknowledgement of the petrofabric|
-|» save_version|body|string|false|Save version of the petrofabric|
+
+|name|body|string|true|Name of the petrofabric|
+|id|body|string|false|Id of the petrofabric|
+|desc|body|string|false|Desc of the petrofabric|
+|petrographic_id|body|string|false|Petrographic of the petrofabric|
+|raw_material|body|string|false|Raw material of the petrofabric|
+|geo_form|body|string|false|Geo form of the petrofabric|
+|privacy_status|body|string|false|Privacy status of the petrofabric|
+|ware_id|body|string|false|Ware of the petrofabric|
+|workshop_id|body|string|false|Workshop of the petrofabric|
+|start_year|body|string|false|Start year of the petrofabric|
+|end_year|body|string|false|End year of the petrofabric|
+|definition|body|string|false|Definition of the petrofabric|
+|acknowledgement|body|string|false|Acknowledgement of the petrofabric|
+|save_version|body|string|false|Save version of the petrofabric|
 
 <h3 id="postapiv1petrofabrics-responses">Responses</h3>
 
