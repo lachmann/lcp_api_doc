@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>API title v0.0.1</title>
+    <title>API v1</title>
 
     <style media="screen">
       .highlight table td { padding: 5px; }
@@ -288,7 +288,7 @@
 
   </head>
 
-  <body class="index" data-languages="[&quot;ruby&quot;,&quot;curl&quot;]">
+  <body class="index" data-languages="[&quot;ruby&quot;,&quot;shell&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -298,8 +298,8 @@
     <div class="toc-wrapper">
       <img src="images/logo-1e815a84.png" class="logo" alt="" />
         <div class="lang-selector">
-              <a href="#" data-language-name="ruby">Ruby</a>
-              <a href="#" data-language-name="curl">Shell</a>
+              <a href="#" data-language-name="ruby">ruby</a>
+              <a href="#" data-language-name="shell">shell</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -307,195 +307,187 @@
         <ul class="search-results"></ul>
       <ul id="toc" class="toc-list-h1">
           <li>
-            <a href="#api-title" class="toc-h1 toc-link" data-title="API title v0.0.1">API title v0.0.1</a>
+            <a href="#api-title" class="toc-h1 toc-link" data-title="API v1">API v1</a>
           </li>
           <li>
-            <a href="#api-title-wares" class="toc-h1 toc-link" data-title="wares">wares</a>
+            <a href="#authentitation" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#authentitation" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
+          </li>
+          <li>
+            <a href="#pagination" class="toc-h1 toc-link" data-title="Pagination">Pagination</a>
+          </li>
+          <li>
+            <a href="#api-title-wares" class="toc-h1 toc-link" data-title="Wares">Wares</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#patchapiv1waresid" class="toc-h2 toc-link" data-title="patchApiV1WaresId">patchApiV1WaresId</a>
+                    <a href="#list-all-wares" class="toc-h2 toc-link" data-title="List all wares">List all wares</a>
                   </li>
                   <li>
-                    <a href="#getapiv1waresid" class="toc-h2 toc-link" data-title="getApiV1WaresId">getApiV1WaresId</a>
+                    <a href="#get-a-ware" class="toc-h2 toc-link" data-title="Get a ware">Get a ware</a>
                   </li>
                   <li>
-                    <a href="#postapiv1wares" class="toc-h2 toc-link" data-title="postApiV1Wares">postApiV1Wares</a>
+                    <a href="#create-a-ware" class="toc-h2 toc-link" data-title="Create a ware">Create a ware</a>
                   </li>
                   <li>
-                    <a href="#getapiv1wares" class="toc-h2 toc-link" data-title="getApiV1Wares">getApiV1Wares</a>
+                    <a href="#update-a-ware" class="toc-h2 toc-link" data-title="Update a ware">Update a ware</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-vessels" class="toc-h1 toc-link" data-title="vessels">vessels</a>
+            <a href="#api-title-vessels" class="toc-h1 toc-link" data-title="Vessels">Vessels</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#postapiv1vesselsbulkinsert" class="toc-h2 toc-link" data-title="postApiV1VesselsBulkInsert">postApiV1VesselsBulkInsert</a>
+                    <a href="#list-all-vessels" class="toc-h2 toc-link" data-title="List all Vessels">List all Vessels</a>
                   </li>
                   <li>
-                    <a href="#patchapiv1vesselsid" class="toc-h2 toc-link" data-title="patchApiV1VesselsId">patchApiV1VesselsId</a>
+                    <a href="#get-a-vessel" class="toc-h2 toc-link" data-title="Get a Vessel">Get a Vessel</a>
                   </li>
                   <li>
-                    <a href="#getapiv1vesselsid" class="toc-h2 toc-link" data-title="getApiV1VesselsId">getApiV1VesselsId</a>
+                    <a href="#create-a-vessel" class="toc-h2 toc-link" data-title="Create a Vessel">Create a Vessel</a>
                   </li>
                   <li>
-                    <a href="#postapiv1vessels" class="toc-h2 toc-link" data-title="postApiV1Vessels">postApiV1Vessels</a>
+                    <a href="#update-a-vessel" class="toc-h2 toc-link" data-title="Update a vessel">Update a vessel</a>
                   </li>
                   <li>
-                    <a href="#getapiv1vessels" class="toc-h2 toc-link" data-title="getApiV1Vessels">getApiV1Vessels</a>
+                    <a href="#bulk-import-vessels" class="toc-h2 toc-link" data-title="Bulk import vessels">Bulk import vessels</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-petrographics" class="toc-h1 toc-link" data-title="petrographics">petrographics</a>
+            <a href="#api-title-petrographics" class="toc-h1 toc-link" data-title="Petrographics">Petrographics</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#postapiv1petrographicsbulkinsert" class="toc-h2 toc-link" data-title="postApiV1PetrographicsBulkInsert">postApiV1PetrographicsBulkInsert</a>
+                    <a href="#list-all-petrographics" class="toc-h2 toc-link" data-title="List all Petrographics">List all Petrographics</a>
                   </li>
                   <li>
-                    <a href="#patchapiv1petrographicsid" class="toc-h2 toc-link" data-title="patchApiV1PetrographicsId">patchApiV1PetrographicsId</a>
+                    <a href="#get-a-petrographics" class="toc-h2 toc-link" data-title="Get a Petrographics">Get a Petrographics</a>
                   </li>
                   <li>
-                    <a href="#getapiv1petrographicsid" class="toc-h2 toc-link" data-title="getApiV1PetrographicsId">getApiV1PetrographicsId</a>
+                    <a href="#create-a-petrographics" class="toc-h2 toc-link" data-title="Create a Petrographics">Create a Petrographics</a>
                   </li>
                   <li>
-                    <a href="#postapiv1petrographics" class="toc-h2 toc-link" data-title="postApiV1Petrographics">postApiV1Petrographics</a>
+                    <a href="#update-a-petrographic" class="toc-h2 toc-link" data-title="Update a Petrographic">Update a Petrographic</a>
                   </li>
                   <li>
-                    <a href="#getapiv1petrographics" class="toc-h2 toc-link" data-title="getApiV1Petrographics">getApiV1Petrographics</a>
+                    <a href="#bulk-import-petrographics" class="toc-h2 toc-link" data-title="Bulk import petrographics">Bulk import petrographics</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-kilns" class="toc-h1 toc-link" data-title="kilns">kilns</a>
+            <a href="#api-title-kilns" class="toc-h1 toc-link" data-title="Kilns (Workshops)">Kilns (Workshops)</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#patchapiv1kilnsid" class="toc-h2 toc-link" data-title="patchApiV1KilnsId">patchApiV1KilnsId</a>
+                    <a href="#list-all-kilns" class="toc-h2 toc-link" data-title="List all Kilns">List all Kilns</a>
                   </li>
                   <li>
-                    <a href="#getapiv1kilnsid" class="toc-h2 toc-link" data-title="getApiV1KilnsId">getApiV1KilnsId</a>
+                    <a href="#get-a-kiln" class="toc-h2 toc-link" data-title="Get a Kiln">Get a Kiln</a>
                   </li>
                   <li>
-                    <a href="#postapiv1kilns" class="toc-h2 toc-link" data-title="postApiV1Kilns">postApiV1Kilns</a>
+                    <a href="#create-a-kiln" class="toc-h2 toc-link" data-title="Create a Kiln">Create a Kiln</a>
                   </li>
                   <li>
-                    <a href="#getapiv1kilns" class="toc-h2 toc-link" data-title="getApiV1Kilns">getApiV1Kilns</a>
+                    <a href="#update-a-kiln" class="toc-h2 toc-link" data-title="Update a Kiln">Update a Kiln</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-petrofabrics" class="toc-h1 toc-link" data-title="petrofabrics">petrofabrics</a>
+            <a href="#api-title-shapes" class="toc-h1 toc-link" data-title="Shapes">Shapes</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#patchapiv1petrofabricsid" class="toc-h2 toc-link" data-title="patchApiV1PetrofabricsId">patchApiV1PetrofabricsId</a>
+                    <a href="#list-all-shapes" class="toc-h2 toc-link" data-title="List all Shapes">List all Shapes</a>
                   </li>
                   <li>
-                    <a href="#getapiv1petrofabricsid" class="toc-h2 toc-link" data-title="getApiV1PetrofabricsId">getApiV1PetrofabricsId</a>
-                  </li>
-                  <li>
-                    <a href="#postapiv1petrofabrics" class="toc-h2 toc-link" data-title="postApiV1Petrofabrics">postApiV1Petrofabrics</a>
-                  </li>
-                  <li>
-                    <a href="#getapiv1petrofabrics" class="toc-h2 toc-link" data-title="getApiV1Petrofabrics">getApiV1Petrofabrics</a>
+                    <a href="#get-a-shape" class="toc-h2 toc-link" data-title="Get a Shape">Get a Shape</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-shapes" class="toc-h1 toc-link" data-title="shapes">shapes</a>
+            <a href="#api-title-sites" class="toc-h1 toc-link" data-title="Sites">Sites</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1shapesid" class="toc-h2 toc-link" data-title="getApiV1ShapesId">getApiV1ShapesId</a>
+                    <a href="#list-all-sites" class="toc-h2 toc-link" data-title="List all Sites">List all Sites</a>
                   </li>
                   <li>
-                    <a href="#getapiv1shapes" class="toc-h2 toc-link" data-title="getApiV1Shapes">getApiV1Shapes</a>
+                    <a href="#get-a-site" class="toc-h2 toc-link" data-title="Get a Site">Get a Site</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-sites" class="toc-h1 toc-link" data-title="sites">sites</a>
+            <a href="#api-title-references" class="toc-h1 toc-link" data-title="References">References</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1sitesid" class="toc-h2 toc-link" data-title="getApiV1SitesId">getApiV1SitesId</a>
+                    <a href="#list-all-references" class="toc-h2 toc-link" data-title="List all References">List all References</a>
                   </li>
                   <li>
-                    <a href="#getapiv1sites" class="toc-h2 toc-link" data-title="getApiV1Sites">getApiV1Sites</a>
+                    <a href="#get-a-reference" class="toc-h2 toc-link" data-title="Get a Reference">Get a Reference</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-references" class="toc-h1 toc-link" data-title="references">references</a>
+            <a href="#api-title-periods" class="toc-h1 toc-link" data-title="Periods">Periods</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1referencesid" class="toc-h2 toc-link" data-title="getApiV1ReferencesId">getApiV1ReferencesId</a>
+                    <a href="#get-all-periods" class="toc-h2 toc-link" data-title="Get all Periods">Get all Periods</a>
                   </li>
                   <li>
-                    <a href="#getapiv1references" class="toc-h2 toc-link" data-title="getApiV1References">getApiV1References</a>
+                    <a href="#get-a-period" class="toc-h2 toc-link" data-title="Get a Period">Get a Period</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-periods" class="toc-h1 toc-link" data-title="periods">periods</a>
+            <a href="#api-title-period_categories" class="toc-h1 toc-link" data-title="Period Categories">Period Categories</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1periodsid" class="toc-h2 toc-link" data-title="getApiV1PeriodsId">getApiV1PeriodsId</a>
+                    <a href="#get-all-period-categories" class="toc-h2 toc-link" data-title="Get all Period Categories">Get all Period Categories</a>
                   </li>
                   <li>
-                    <a href="#getapiv1periods" class="toc-h2 toc-link" data-title="getApiV1Periods">getApiV1Periods</a>
+                    <a href="#get-a-period-category" class="toc-h2 toc-link" data-title="Get a Period Category">Get a Period Category</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-period_categories" class="toc-h1 toc-link" data-title="period_categories">period_categories</a>
+            <a href="#api-title-images" class="toc-h1 toc-link" data-title="Images">Images</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1periodcategoriesid" class="toc-h2 toc-link" data-title="getApiV1PeriodCategoriesId">getApiV1PeriodCategoriesId</a>
+                    <a href="#get-all-images" class="toc-h2 toc-link" data-title="Get all Images">Get all Images</a>
                   </li>
                   <li>
-                    <a href="#getapiv1periodcategories" class="toc-h2 toc-link" data-title="getApiV1PeriodCategories">getApiV1PeriodCategories</a>
+                    <a href="#get-an-image" class="toc-h2 toc-link" data-title="Get an Image">Get an Image</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-images" class="toc-h1 toc-link" data-title="images">images</a>
+            <a href="#api-title-functional_categories" class="toc-h1 toc-link" data-title="Functional Categories">Functional Categories</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1imagesid" class="toc-h2 toc-link" data-title="getApiV1ImagesId">getApiV1ImagesId</a>
+                    <a href="#get-all-functional-categories" class="toc-h2 toc-link" data-title="Get all Functional Categories">Get all Functional Categories</a>
                   </li>
                   <li>
-                    <a href="#getapiv1images" class="toc-h2 toc-link" data-title="getApiV1Images">getApiV1Images</a>
+                    <a href="#get-a-functional-category" class="toc-h2 toc-link" data-title="Get a Functional Category">Get a Functional Category</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-functional_categories" class="toc-h1 toc-link" data-title="functional_categories">functional_categories</a>
+            <a href="#api-title-contributors" class="toc-h1 toc-link" data-title="Contributors">Contributors</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1functionalcategoriesid" class="toc-h2 toc-link" data-title="getApiV1FunctionalCategoriesId">getApiV1FunctionalCategoriesId</a>
+                    <a href="#get-a-contributor" class="toc-h2 toc-link" data-title="Get a Contributor">Get a Contributor</a>
                   </li>
                   <li>
-                    <a href="#getapiv1functionalcategories" class="toc-h2 toc-link" data-title="getApiV1FunctionalCategories">getApiV1FunctionalCategories</a>
+                    <a href="#get-all-contributors" class="toc-h2 toc-link" data-title="Get all Contributors">Get all Contributors</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#api-title-contributors" class="toc-h1 toc-link" data-title="contributors">contributors</a>
+            <a href="#api-title-citations" class="toc-h1 toc-link" data-title="Citations">Citations</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#getapiv1contributorsid" class="toc-h2 toc-link" data-title="getApiV1ContributorsId">getApiV1ContributorsId</a>
+                    <a href="#get-all-citations" class="toc-h2 toc-link" data-title="Get all Citations">Get all Citations</a>
                   </li>
                   <li>
-                    <a href="#getapiv1contributors" class="toc-h2 toc-link" data-title="getApiV1Contributors">getApiV1Contributors</a>
-                  </li>
-              </ul>
-          </li>
-          <li>
-            <a href="#api-title-citations" class="toc-h1 toc-link" data-title="citations">citations</a>
-              <ul class="toc-list-h2">
-                  <li>
-                    <a href="#getapiv1citationsid" class="toc-h2 toc-link" data-title="getApiV1CitationsId">getApiV1CitationsId</a>
-                  </li>
-                  <li>
-                    <a href="#getapiv1citations" class="toc-h2 toc-link" data-title="getApiV1Citations">getApiV1Citations</a>
+                    <a href="#get-a-citation" class="toc-h2 toc-link" data-title="Get a Citation">Get a Citation</a>
                   </li>
               </ul>
           </li>
@@ -508,7 +500,7 @@
       <div class="content">
         <!-- Generator: Widdershins v4.0.1 -->
 
-<h1 id="api-title">API title v0.0.1</h1>
+<h1 id="api-title">API v1</h1>
 
 <blockquote>
 <p>Scroll down for code samples, example requests and responses. Select a language for code samples from the tabs above or the mobile navigation menu.</p>
@@ -516,15 +508,58 @@
 
 <p>Base URLs:</p>
 
-<ul>
-<li><a href="//localhost:3000">//localhost:3000</a></li>
-</ul>
+<p><a href="https://www.levantineceramics.org/">https://www.levantineceramics.org/</a></p>
 
-<h1 id="api-title-wares">wares</h1>
+<h1 id="authentitation">Introduction</h1>
 
-<p>Operations about wares</p>
-<h2 id='patchapiv1waresid'>patchApiV1WaresId</h2>
-<p><a id="opIdpatchApiV1WaresId"></a></p>
+<p><em>The Levantine Ceramics Project</em> (LCP) is an open, interactive website focused on ceramics produced in the Levant from the Neolithic era (c. 5500 B.C.E.) through the Ottoman period (c. 1920 C.E.). Here you can submit and find information—whether long published or newly discovered—about ceramic wares, shapes, specific vessels, scientific analyses, kiln sites, and chronology. The LCP makes it simple to access, share, use, and refine data, to link scholars and to foster collaborative research. <strong>Watch a brief video about the LCP</strong> <a href="https://www.youtube.com/watch?v=kFk_7f4B1vY">here</a>.</p>
+
+<h1 id="authentitation">Authentication</h1>
+
+<aside class="warning">
+  Every endpoint requires authentiation
+</aside>
+
+<p>The Levantine Ceramics Project expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
+
+<p><code>Authorization: Bearer &lt;token&gt;</code></p>
+
+<h1 id="pagination">Pagination</h1>
+
+<p>Listing resource endpoints support pagination via query params</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>page</td>
+<td>number</td>
+<td>false</td>
+<td>Page number, default: 1</td>
+</tr>
+<tr>
+<td>per_page</td>
+<td>number</td>
+<td>false</td>
+<td>Number of records per page, default: 100</td>
+</tr>
+</tbody></table>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"localhost:3000/api/v1/periods?page=1&amp;per_page=1"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Authorization: Bearer &lt;token&gt;"</span>
+</code></pre></div><h1 id="api-title-wares">Wares</h1>
+<h2 id='list-all-wares'>List all wares</h2>
+<p><code>GET /api/v1/wares</code></p>
+
+<p><a id="opIdgetApiV1Wares"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -532,126 +567,20 @@
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'/localhost:3000/api/v1/wares/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/wares'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
+  <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>PATCH /api/v1/wares/{id}</code></p>
-
-<p>Update a ware</p>
-
 <blockquote>
-<p>Body parameter</p>
+<p>Code samples</p>
 </blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">alternative_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">definition</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">chron_range</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
-
+<div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"localhost:3000/api/v1/wares?page=1&amp;per_page=5"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Authorization: Bearer &lt;token&gt;"</span>
 </code></pre></div>
-<h3 id="patchapiv1waresid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>integer(int32)</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>false</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Name of the ware</td>
-</tr>
-<tr>
-<td>» alternative_name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Alternative name of the ware</td>
-</tr>
-<tr>
-<td>» definition</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Definition of the ware</td>
-</tr>
-<tr>
-<td>» desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Desc of the ware</td>
-</tr>
-<tr>
-<td>» chron_range</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Chron range of the ware</td>
-</tr>
-<tr>
-<td>» period</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Period of the ware</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the ware</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the ware</td>
-</tr>
-<tr>
-<td>» save_version</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Save version of the ware</td>
-</tr>
-</tbody></table>
-
-<h3 id="patchapiv1waresid-responses">Responses</h3>
+<h3 id="getapiv1wares-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -664,15 +593,13 @@
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Update a ware</td>
+<td>Return all wares</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-ware'>Get a ware</h2>
+<p><code>GET /api/v1/wares/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1waresid'>getApiV1WaresId</h2>
 <p><a id="opIdgetApiV1WaresId"></a></p>
 
 <blockquote>
@@ -681,17 +608,15 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/wares/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/wares/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
+</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"localhost:3000/api/v1/wares/:id"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Authorization: Bearer &lt;token&gt;"</span>
 </code></pre></div>
-<p><code>GET /api/v1/wares/{id}</code></p>
-
-<p>Return a ware</p>
-
 <h3 id="getapiv1waresid-parameters">Parameters</h3>
 
 <table><thead>
@@ -729,11 +654,9 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='create-a-ware'>Create a ware</h2>
+<p><code>POST /api/v1/wares</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='postapiv1wares'>postApiV1Wares</h2>
 <p><a id="opIdpostApiV1Wares"></a></p>
 
 <blockquote>
@@ -746,17 +669,17 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/wares'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/wares'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
+</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">-X</span> POST <span class="s2">"localhost:3000/api/v1/wares"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Authorization: Bearer &lt;token&gt;"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span> <span class="se">\</span>
+  <span class="nt">-d</span> <span class="s1">'{ "name": "A mistery ware", "alternative_name": "Alternative name", "definition": "Magical", "desc": "Name", "chron_range": "Once upon a time", "period": "", "privacy_status": 1,"acknowledgement": "Found by X", "save_version": false }'</span>
 </code></pre></div>
-<p><code>POST /api/v1/wares</code></p>
-
-<p>Create a ware</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
@@ -768,7 +691,7 @@ This operation does not require authentication
 <span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">save_version</span><span class="pi">:</span> <span class="s">boolean</span>
 
 </code></pre></div>
 <h3 id="postapiv1wares-parameters">Parameters</h3>
@@ -783,72 +706,65 @@ This operation does not require authentication
 </tr>
 </thead><tbody>
 <tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» name</td>
+<td>name</td>
 <td>body</td>
 <td>string</td>
 <td>true</td>
 <td>Name of the ware</td>
 </tr>
 <tr>
-<td>» alternative_name</td>
+<td>alternative_name</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Alternative name of the ware</td>
 </tr>
 <tr>
-<td>» definition</td>
+<td>definition</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Definition of the ware</td>
 </tr>
 <tr>
-<td>» desc</td>
+<td>desc</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Desc of the ware</td>
 </tr>
 <tr>
-<td>» chron_range</td>
+<td>chron_range</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Chron range of the ware</td>
 </tr>
 <tr>
-<td>» period</td>
+<td>period</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Period of the ware</td>
 </tr>
 <tr>
-<td>» privacy_status</td>
+<td>privacy_status</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Privacy status of the ware</td>
 </tr>
 <tr>
-<td>» acknowledgement</td>
+<td>acknowledgement</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Acknowledgement of the ware</td>
 </tr>
 <tr>
-<td>» save_version</td>
+<td>save_version</td>
 <td>body</td>
-<td>string</td>
+<td>boolean</td>
 <td>false</td>
 <td>Save version of the ware</td>
 </tr>
@@ -871,12 +787,10 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='update-a-ware'>Update a ware</h2>
+<p><code>PATCH /api/v1/wares/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1wares'>getApiV1Wares</h2>
-<p><a id="opIdgetApiV1Wares"></a></p>
+<p><a id="opIdpatchApiV1WaresId"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -884,18 +798,119 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/wares'</span><span class="p">,</span>
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
+<span class="p">}</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'https://www.levantineceramics.org/api/v1/wares/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
+  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
+</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="nt">-X</span> PATCH <span class="s2">"localhost:3000/api/v1/wares/:id"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Authorization: Bearer &lt;token&gt;"</span> <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span> <span class="se">\</span>
+  <span class="nt">-d</span> <span class="s1">'{ "name": "New name", "alternative_name": "New Alternative name", "definition": "Magical", "desc": "Name", "chron_range": "Once upon a time", "period": "", "privacy_status": 1,"acknowledgement": "Found by X", "save_version": false }'</span>
 </code></pre></div>
-<p><code>GET /api/v1/wares</code></p>
+<blockquote>
+<p>Body parameter</p>
+</blockquote>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">alternative_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">definition</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">chron_range</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
 
-<p>Return all wares</p>
+</code></pre></div>
+<h3 id="patchapiv1waresid-parameters">Parameters</h3>
 
-<h3 id="getapiv1wares-responses">Responses</h3>
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>integer(int32)</td>
+<td>true</td>
+<td>none</td>
+</tr>
+<tr>
+<td>name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Name of the ware</td>
+</tr>
+<tr>
+<td>alternative_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Alternative name of the ware</td>
+</tr>
+<tr>
+<td>definition</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Definition of the ware</td>
+</tr>
+<tr>
+<td>desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Desc of the ware</td>
+</tr>
+<tr>
+<td>chron_range</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Chron range of the ware</td>
+</tr>
+<tr>
+<td>period</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Period of the ware</td>
+</tr>
+<tr>
+<td>privacy_status</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy status of the ware</td>
+</tr>
+<tr>
+<td>acknowledgement</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Acknowledgement of the ware</td>
+</tr>
+<tr>
+<td>save_version</td>
+<td>body</td>
+<td>boolean</td>
+<td>false</td>
+<td>Save version of the ware</td>
+</tr>
+</tbody></table>
+
+<h3 id="patchapiv1waresid-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -908,19 +923,819 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all wares</td>
+<td>Update a ware</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-vessels">Vessels</h1>
+<h2 id='list-all-vessels'>List all Vessels</h2>
+<p><code>GET /api/v1/vessels</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
+<p><a id="opIdgetApiV1Vessels"></a></p>
 
-<h1 id="api-title-vessels">vessels</h1>
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
 
-<p>Operations about vessels</p>
-<h2 id='postapiv1vesselsbulkinsert'>postApiV1VesselsBulkInsert</h2>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/vessels'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<h3 id="getapiv1vessels-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return all vessels</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='get-a-vessel'>Get a Vessel</h2>
+<p><code>GET /api/v1/vessels/{id}</code></p>
+
+<p><a id="opIdgetApiV1VesselsId"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/vessels/{id}'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<h3 id="getapiv1vesselsid-parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>string</td>
+<td>true</td>
+<td>ID of the vessel</td>
+</tr>
+</tbody></table>
+
+<h3 id="getapiv1vesselsid-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return a vessel</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='create-a-vessel'>Create a Vessel</h2>
+<p><code>POST /api/v1/vessels</code></p>
+
+<p><a id="opIdpostApiV1Vessels"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
+<span class="p">}</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/vessels'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<blockquote>
+<p>Body parameter</p>
+</blockquote>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">inventory_number</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">manu_tech</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">string</span>
+<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">site_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">arch_context</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_rtype</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_sub_group</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">preserved_height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">thickness</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">color</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">firing</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">surface_treatment</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_id</span><span class="pi">:</span> <span class="s">string</span>
+
+</code></pre></div>
+<h3 id="postapiv1vessels-parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>inventory_number</td>
+<td>body</td>
+<td>string</td>
+<td>true</td>
+<td>Inventory number of the vessel</td>
+</tr>
+<tr>
+<td>ware_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Ware of the vessel</td>
+</tr>
+<tr>
+<td>petrofabric_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofabric of the vessel</td>
+</tr>
+<tr>
+<td>petrofab_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofab name of the vessel</td>
+</tr>
+<tr>
+<td>petrofab_visual_desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofab visual desc of the vessel</td>
+</tr>
+<tr>
+<td>chron</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Chron of the vessel</td>
+</tr>
+<tr>
+<td>period</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Period of the vessel</td>
+</tr>
+<tr>
+<td>manu_tech</td>
+<td>body</td>
+<td>[string]</td>
+<td>false</td>
+<td>Manu tech of the vessel</td>
+</tr>
+<tr>
+<td>region_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Region tokens of the vessel</td>
+</tr>
+<tr>
+<td>site_type</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Site type of the vessel</td>
+</tr>
+<tr>
+<td>arch_context</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Arch context of the vessel</td>
+</tr>
+<tr>
+<td>shape_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape name of the vessel</td>
+</tr>
+<tr>
+<td>shape_rtype</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape rtype of the vessel</td>
+</tr>
+<tr>
+<td>site_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Site of the vessel</td>
+</tr>
+<tr>
+<td>shape_sub_group</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape sub group of the vessel</td>
+</tr>
+<tr>
+<td>functional_category_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Functional category of the vessel</td>
+</tr>
+<tr>
+<td>height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Height of the vessel</td>
+</tr>
+<tr>
+<td>preserved_height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Preserved height of the vessel</td>
+</tr>
+<tr>
+<td>true_height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True height of the vessel</td>
+</tr>
+<tr>
+<td>max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Max diameter of the vessel</td>
+</tr>
+<tr>
+<td>estimated_max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated max diameter of the vessel</td>
+</tr>
+<tr>
+<td>true_max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True max diameter of the vessel</td>
+</tr>
+<tr>
+<td>diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>estimated_diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>true_diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Diameter base of the vessel</td>
+</tr>
+<tr>
+<td>estimated_diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated diameter base of the vessel</td>
+</tr>
+<tr>
+<td>true_diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True diameter base of the vessel</td>
+</tr>
+<tr>
+<td>thickness</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Thickness of the vessel</td>
+</tr>
+<tr>
+<td>color</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Color of the vessel</td>
+</tr>
+<tr>
+<td>firing</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Firing of the vessel</td>
+</tr>
+<tr>
+<td>surface_treatment</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Surface treatment of the vessel</td>
+</tr>
+<tr>
+<td>contributor_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Contributor tokens of the vessel</td>
+</tr>
+<tr>
+<td>privacy_status</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy status of the vessel</td>
+</tr>
+<tr>
+<td>privacy_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy tokens of the vessel</td>
+</tr>
+<tr>
+<td>acknowledgement</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Acknowledgement of the vessel</td>
+</tr>
+<tr>
+<td>shape_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape of the vessel</td>
+</tr>
+</tbody></table>
+
+<h3 id="postapiv1vessels-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>201</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
+<td>Create a vessel</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='update-a-vessel'>Update a vessel</h2>
+<p><code>PATCH /api/v1/vessels/{id}</code></p>
+
+<p><a id="opIdpatchApiV1VesselsId"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
+<span class="p">}</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'https://www.levantineceramics.org/api/v1/vessels/{id}'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<blockquote>
+<p>Body parameter</p>
+</blockquote>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">manu_tech</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">string</span>
+<span class="na">inventory_number</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">site_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">arch_context</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_rtype</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_sub_group</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">preserved_height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_height</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">estimated_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">true_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">thickness</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">color</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">firing</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">surface_treatment</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">shape_id</span><span class="pi">:</span> <span class="s">string</span>
+
+</code></pre></div>
+<h3 id="patchapiv1vesselsid-parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>integer(int32)</td>
+<td>true</td>
+<td>none</td>
+</tr>
+<tr>
+<td>ware_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Ware of the vessel</td>
+</tr>
+<tr>
+<td>petrofabric_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofabric of the vessel</td>
+</tr>
+<tr>
+<td>petrofab_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofab name of the vessel</td>
+</tr>
+<tr>
+<td>petrofab_visual_desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofab visual desc of the vessel</td>
+</tr>
+<tr>
+<td>chron</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Chron of the vessel</td>
+</tr>
+<tr>
+<td>period</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Period of the vessel</td>
+</tr>
+<tr>
+<td>manu_tech</td>
+<td>body</td>
+<td>[string]</td>
+<td>false</td>
+<td>Manu tech of the vessel</td>
+</tr>
+<tr>
+<td>inventory_number</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Inventory number of the vessel</td>
+</tr>
+<tr>
+<td>region_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Region tokens of the vessel</td>
+</tr>
+<tr>
+<td>site_type</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Site type of the vessel</td>
+</tr>
+<tr>
+<td>arch_context</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Arch context of the vessel</td>
+</tr>
+<tr>
+<td>shape_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape name of the vessel</td>
+</tr>
+<tr>
+<td>shape_rtype</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape rtype of the vessel</td>
+</tr>
+<tr>
+<td>site_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Site of the vessel</td>
+</tr>
+<tr>
+<td>shape_sub_group</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape sub group of the vessel</td>
+</tr>
+<tr>
+<td>functional_category_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Functional category of the vessel</td>
+</tr>
+<tr>
+<td>height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Height of the vessel</td>
+</tr>
+<tr>
+<td>preserved_height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Preserved height of the vessel</td>
+</tr>
+<tr>
+<td>true_height</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True height of the vessel</td>
+</tr>
+<tr>
+<td>max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Max diameter of the vessel</td>
+</tr>
+<tr>
+<td>estimated_max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated max diameter of the vessel</td>
+</tr>
+<tr>
+<td>true_max_diameter</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True max diameter of the vessel</td>
+</tr>
+<tr>
+<td>diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>estimated_diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>true_diameter_rim</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True diameter rim of the vessel</td>
+</tr>
+<tr>
+<td>diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Diameter base of the vessel</td>
+</tr>
+<tr>
+<td>estimated_diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Estimated diameter base of the vessel</td>
+</tr>
+<tr>
+<td>true_diameter_base</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>True diameter base of the vessel</td>
+</tr>
+<tr>
+<td>thickness</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Thickness of the vessel</td>
+</tr>
+<tr>
+<td>color</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Color of the vessel</td>
+</tr>
+<tr>
+<td>firing</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Firing of the vessel</td>
+</tr>
+<tr>
+<td>surface_treatment</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Surface treatment of the vessel</td>
+</tr>
+<tr>
+<td>contributor_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Contributor tokens of the vessel</td>
+</tr>
+<tr>
+<td>privacy_status</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy status of the vessel</td>
+</tr>
+<tr>
+<td>privacy_tokens</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy tokens of the vessel</td>
+</tr>
+<tr>
+<td>acknowledgement</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Acknowledgement of the vessel</td>
+</tr>
+<tr>
+<td>shape_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Shape of the vessel</td>
+</tr>
+</tbody></table>
+
+<h3 id="patchapiv1vesselsid-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Update a vessel</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='bulk-import-vessels'>Bulk import vessels</h2>
+<p><code>POST /api/v1/vessels/bulk_insert</code></p>
+
 <p><a id="opIdpostApiV1VesselsBulkInsert"></a></p>
 
 <blockquote>
@@ -933,17 +1748,13 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/vessels/bulk_insert'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/vessels/bulk_insert'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>POST /api/v1/vessels/bulk_insert</code></p>
-
-<p>Bulk insert vessels</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
@@ -1035,266 +1846,259 @@ This operation does not require authentication
 </tr>
 </thead><tbody>
 <tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» vessels[inventory_number]</td>
+<td>vessels[inventory_number]</td>
 <td>body</td>
 <td>[string]</td>
 <td>true</td>
 <td>Inventory number of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[ware_id]</td>
+<td>vessels[ware_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Ware of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[petrofabric_id]</td>
+<td>vessels[petrofabric_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Petrofabric of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[petrofab_name]</td>
+<td>vessels[petrofab_name]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Petrofab name of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[petrofab_visual_desc]</td>
+<td>vessels[petrofab_visual_desc]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Petrofab visual desc of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[chron]</td>
+<td>vessels[chron]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Chron of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[period]</td>
+<td>vessels[period]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Period of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[manu_tech]</td>
+<td>vessels[manu_tech]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Manu tech of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[region_tokens]</td>
+<td>vessels[region_tokens]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Region tokens of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[site_type]</td>
+<td>vessels[site_type]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Site type of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[arch_context]</td>
+<td>vessels[arch_context]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Arch context of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[shape_name]</td>
+<td>vessels[shape_name]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Shape name of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[shape_rtype]</td>
+<td>vessels[shape_rtype]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Shape rtype of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[site_id]</td>
+<td>vessels[site_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Site of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[shape_sub_group]</td>
+<td>vessels[shape_sub_group]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Shape sub group of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[functional_category_id]</td>
+<td>vessels[functional_category_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Functional category of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[height]</td>
+<td>vessels[height]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Height of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[preserved_height]</td>
+<td>vessels[preserved_height]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Preserved height of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[true_height]</td>
+<td>vessels[true_height]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>True height of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[max_diameter]</td>
+<td>vessels[max_diameter]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Max diameter of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[estimated_max_diameter]</td>
+<td>vessels[estimated_max_diameter]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Estimated max diameter of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[true_max_diameter]</td>
+<td>vessels[true_max_diameter]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>True max diameter of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[diameter_rim]</td>
+<td>vessels[diameter_rim]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Diameter rim of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[estimated_diameter_rim]</td>
+<td>vessels[estimated_diameter_rim]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Estimated diameter rim of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[true_diameter_rim]</td>
+<td>vessels[true_diameter_rim]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>True diameter rim of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[diameter_base]</td>
+<td>vessels[diameter_base]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Diameter base of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[estimated_diameter_base]</td>
+<td>vessels[estimated_diameter_base]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Estimated diameter base of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[true_diameter_base]</td>
+<td>vessels[true_diameter_base]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>True diameter base of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[thickness]</td>
+<td>vessels[thickness]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Thickness of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[color]</td>
+<td>vessels[color]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Color of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[firing]</td>
+<td>vessels[firing]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Firing of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[surface_treatment]</td>
+<td>vessels[surface_treatment]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Surface treatment of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[contributor_tokens]</td>
+<td>vessels[contributor_tokens]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Contributor tokens of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[privacy_status]</td>
+<td>vessels[privacy_status]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Privacy status of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[privacy_tokens]</td>
+<td>vessels[privacy_tokens]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Privacy tokens of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[acknowledgement]</td>
+<td>vessels[acknowledgement]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Acknowledgement of the vessel</td>
 </tr>
 <tr>
-<td>» vessels[shape_id]</td>
+<td>vessels[shape_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
@@ -1319,12 +2123,101 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-petrographics">Petrographics</h1>
+<h2 id='list-all-petrographics'>List all Petrographics</h2>
+<p><code>GET /api/v1/petrographics</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='patchapiv1vesselsid'>patchApiV1VesselsId</h2>
-<p><a id="opIdpatchApiV1VesselsId"></a></p>
+<p><a id="opIdgetApiV1Petrographics"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/petrographics'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<h3 id="getapiv1petrographics-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return all petrographics</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='get-a-petrographics'>Get a Petrographics</h2>
+<p><code>GET /api/v1/petrographics/{id}</code></p>
+
+<p><a id="opIdgetApiV1PetrographicsId"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/petrographics/{id}'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<h3 id="getapiv1petrographicsid-parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>id</td>
+<td>path</td>
+<td>string</td>
+<td>true</td>
+<td>ID of the petrographic</td>
+</tr>
+</tbody></table>
+
+<h3 id="getapiv1petrographicsid-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return a petrographic</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='create-a-petrographics'>Create a Petrographics</h2>
+<p><code>POST /api/v1/petrographics</code></p>
+
+<p><a id="opIdpostApiV1Petrographics"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -1336,61 +2229,319 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'/localhost:3000/api/v1/vessels/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/petrographics'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>PATCH /api/v1/vessels/{id}</code></p>
-
-<p>Update a vessel</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">manu_tech</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">string</span>
-<span class="na">inventory_number</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">site_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">arch_context</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_rtype</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_sub_group</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">preserved_height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">thickness</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">color</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">firing</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">surface_treatment</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">item_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">thin_section_number</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">geological_features</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">soil_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">matrix_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">matrix_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">inclusion_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">inclusion_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">voids_shape</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">voids_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">local_petrographic_group</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_site_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_chron</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_shape_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">skip_callbacks</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_id</span><span class="pi">:</span> <span class="s">string</span>
 
 </code></pre></div>
-<h3 id="patchapiv1vesselsid-parameters">Parameters</h3>
+<h3 id="postapiv1petrographics-parameters">Parameters</h3>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>In</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>item_id</td>
+<td>body</td>
+<td>string</td>
+<td>true</td>
+<td>Item of the petrographic</td>
+</tr>
+<tr>
+<td>thin_section_number</td>
+<td>body</td>
+<td>string</td>
+<td>true</td>
+<td>Thin section number of the petrographic</td>
+</tr>
+<tr>
+<td>geological_features</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Geological features of the petrographic</td>
+</tr>
+<tr>
+<td>soil_type</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Soil type of the petrographic</td>
+</tr>
+<tr>
+<td>desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Desc of the petrographic</td>
+</tr>
+<tr>
+<td>matrix_type</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Matrix type of the petrographic</td>
+</tr>
+<tr>
+<td>matrix_amt</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Matrix amt of the petrographic</td>
+</tr>
+<tr>
+<td>inclusion_type</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Inclusion type of the petrographic</td>
+</tr>
+<tr>
+<td>inclusion_amt</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Inclusion amt of the petrographic</td>
+</tr>
+<tr>
+<td>voids_shape</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Voids shape of the petrographic</td>
+</tr>
+<tr>
+<td>voids_amt</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Voids amt of the petrographic</td>
+</tr>
+<tr>
+<td>ware_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Ware of the petrographic</td>
+</tr>
+<tr>
+<td>privacy_status</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Privacy status of the petrographic</td>
+</tr>
+<tr>
+<td>petrofabric_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofabric of the petrographic</td>
+</tr>
+<tr>
+<td>ware_visual_desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Ware visual desc of the petrographic</td>
+</tr>
+<tr>
+<td>petrofab_visual_desc</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Petrofab visual desc of the petrographic</td>
+</tr>
+<tr>
+<td>local_petrographic_group</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Local petrographic group of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_site_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel site of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_chron</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel chron of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_period</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel period of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_shape_name</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel shape name of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_functional_category_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel functional category of the petrographic</td>
+</tr>
+<tr>
+<td>skip_callbacks</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Skip callbacks of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_ware_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel ware of the petrographic</td>
+</tr>
+<tr>
+<td>vessel_petrofabric_id</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Vessel petrofabric of the petrographic</td>
+</tr>
+<tr>
+<td>acknowledgement</td>
+<td>body</td>
+<td>string</td>
+<td>false</td>
+<td>Acknowledgement of the petrographic</td>
+</tr>
+</tbody></table>
+
+<h3 id="postapiv1petrographics-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>201</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
+<td>Create a petrographic</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='update-a-petrographic'>Update a Petrographic</h2>
+<p><code>PATCH /api/v1/petrographics/{id}</code></p>
+
+<p><a id="opIdpatchApiV1PetrographicsId"></a></p>
+
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
+<span class="p">}</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'https://www.levantineceramics.org/api/v1/petrographics/{id}'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<blockquote>
+<p>Body parameter</p>
+</blockquote>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">geological_features</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">soil_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">matrix_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">matrix_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">inclusion_type</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">inclusion_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">voids_shape</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">voids_amt</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">item_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">thin_section_number</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">local_petrographic_group</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_site_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_chron</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_shape_name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">skip_callbacks</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">vessel_petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
+
+</code></pre></div>
+<h3 id="patchapiv1petrographicsid-parameters">Parameters</h3>
 
 <table><thead>
 <tr>
@@ -1416,267 +2567,197 @@ This operation does not require authentication
 <td>none</td>
 </tr>
 <tr>
-<td>» ware_id</td>
+<td>geological_features</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Ware of the vessel</td>
+<td>Geological features of the petrographic</td>
 </tr>
 <tr>
-<td>» petrofabric_id</td>
+<td>soil_type</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Petrofabric of the vessel</td>
+<td>Soil type of the petrographic</td>
 </tr>
 <tr>
-<td>» petrofab_name</td>
+<td>desc</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Petrofab name of the vessel</td>
+<td>Desc of the petrographic</td>
 </tr>
 <tr>
-<td>» petrofab_visual_desc</td>
+<td>matrix_type</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Petrofab visual desc of the vessel</td>
+<td>Matrix type of the petrographic</td>
 </tr>
 <tr>
-<td>» chron</td>
+<td>matrix_amt</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Chron of the vessel</td>
+<td>Matrix amt of the petrographic</td>
 </tr>
 <tr>
-<td>» period</td>
+<td>inclusion_type</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Period of the vessel</td>
+<td>Inclusion type of the petrographic</td>
 </tr>
 <tr>
-<td>» manu_tech</td>
-<td>body</td>
-<td>[string]</td>
-<td>false</td>
-<td>Manu tech of the vessel</td>
-</tr>
-<tr>
-<td>» inventory_number</td>
+<td>inclusion_amt</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Inventory number of the vessel</td>
+<td>Inclusion amt of the petrographic</td>
 </tr>
 <tr>
-<td>» region_tokens</td>
+<td>voids_shape</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Region tokens of the vessel</td>
+<td>Voids shape of the petrographic</td>
 </tr>
 <tr>
-<td>» site_type</td>
+<td>voids_amt</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Site type of the vessel</td>
+<td>Voids amt of the petrographic</td>
 </tr>
 <tr>
-<td>» arch_context</td>
+<td>item_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Arch context of the vessel</td>
+<td>Item of the petrographic</td>
 </tr>
 <tr>
-<td>» shape_name</td>
+<td>ware_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Shape name of the vessel</td>
+<td>Ware of the petrographic</td>
 </tr>
 <tr>
-<td>» shape_rtype</td>
+<td>privacy_status</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Shape rtype of the vessel</td>
+<td>Privacy status of the petrographic</td>
 </tr>
 <tr>
-<td>» site_id</td>
+<td>thin_section_number</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Site of the vessel</td>
+<td>Thin section number of the petrographic</td>
 </tr>
 <tr>
-<td>» shape_sub_group</td>
+<td>petrofabric_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Shape sub group of the vessel</td>
+<td>Petrofabric of the petrographic</td>
 </tr>
 <tr>
-<td>» functional_category_id</td>
+<td>ware_visual_desc</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Functional category of the vessel</td>
+<td>Ware visual desc of the petrographic</td>
 </tr>
 <tr>
-<td>» height</td>
+<td>petrofab_visual_desc</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Height of the vessel</td>
+<td>Petrofab visual desc of the petrographic</td>
 </tr>
 <tr>
-<td>» preserved_height</td>
+<td>local_petrographic_group</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Preserved height of the vessel</td>
+<td>Local petrographic group of the petrographic</td>
 </tr>
 <tr>
-<td>» true_height</td>
+<td>vessel_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>True height of the vessel</td>
+<td>Vessel of the petrographic</td>
 </tr>
 <tr>
-<td>» max_diameter</td>
+<td>vessel_site_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Max diameter of the vessel</td>
+<td>Vessel site of the petrographic</td>
 </tr>
 <tr>
-<td>» estimated_max_diameter</td>
+<td>vessel_chron</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Estimated max diameter of the vessel</td>
+<td>Vessel chron of the petrographic</td>
 </tr>
 <tr>
-<td>» true_max_diameter</td>
+<td>vessel_period</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>True max diameter of the vessel</td>
+<td>Vessel period of the petrographic</td>
 </tr>
 <tr>
-<td>» diameter_rim</td>
+<td>vessel_shape_name</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Diameter rim of the vessel</td>
+<td>Vessel shape name of the petrographic</td>
 </tr>
 <tr>
-<td>» estimated_diameter_rim</td>
+<td>vessel_functional_category_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Estimated diameter rim of the vessel</td>
+<td>Vessel functional category of the petrographic</td>
 </tr>
 <tr>
-<td>» true_diameter_rim</td>
+<td>skip_callbacks</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>True diameter rim of the vessel</td>
+<td>Skip callbacks of the petrographic</td>
 </tr>
 <tr>
-<td>» diameter_base</td>
+<td>vessel_ware_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Diameter base of the vessel</td>
+<td>Vessel ware of the petrographic</td>
 </tr>
 <tr>
-<td>» estimated_diameter_base</td>
+<td>vessel_petrofabric_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Estimated diameter base of the vessel</td>
+<td>Vessel petrofabric of the petrographic</td>
 </tr>
 <tr>
-<td>» true_diameter_base</td>
+<td>acknowledgement</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>True diameter base of the vessel</td>
-</tr>
-<tr>
-<td>» thickness</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Thickness of the vessel</td>
-</tr>
-<tr>
-<td>» color</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Color of the vessel</td>
-</tr>
-<tr>
-<td>» firing</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Firing of the vessel</td>
-</tr>
-<tr>
-<td>» surface_treatment</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Surface treatment of the vessel</td>
-</tr>
-<tr>
-<td>» contributor_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Contributor tokens of the vessel</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the vessel</td>
-</tr>
-<tr>
-<td>» privacy_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy tokens of the vessel</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the vessel</td>
-</tr>
-<tr>
-<td>» shape_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Shape of the vessel</td>
+<td>Acknowledgement of the petrographic</td>
 </tr>
 </tbody></table>
 
-<h3 id="patchapiv1vesselsid-responses">Responses</h3>
+<h3 id="patchapiv1petrographicsid-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -1689,488 +2770,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Update a vessel</td>
+<td>Update a petrographic</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='bulk-import-petrographics'>Bulk import petrographics</h2>
+<p><code>POST /api/v1/petrographics/bulk_insert</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1vesselsid'>getApiV1VesselsId</h2>
-<p><a id="opIdgetApiV1VesselsId"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/vessels/{id}'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/vessels/{id}</code></p>
-
-<p>Return a vessel</p>
-
-<h3 id="getapiv1vesselsid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>string</td>
-<td>true</td>
-<td>ID of the vessel</td>
-</tr>
-</tbody></table>
-
-<h3 id="getapiv1vesselsid-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return a vessel</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='postapiv1vessels'>postApiV1Vessels</h2>
-<p><a id="opIdpostApiV1Vessels"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/vessels'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>POST /api/v1/vessels</code></p>
-
-<p>Create a vessel</p>
-
-<blockquote>
-<p>Body parameter</p>
-</blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">inventory_number</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">manu_tech</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">string</span>
-<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">site_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">arch_context</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_rtype</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_sub_group</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">preserved_height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_height</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_max_diameter</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_diameter_rim</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">estimated_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">true_diameter_base</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">thickness</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">color</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">firing</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">surface_treatment</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">shape_id</span><span class="pi">:</span> <span class="s">string</span>
-
-</code></pre></div>
-<h3 id="postapiv1vessels-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» inventory_number</td>
-<td>body</td>
-<td>string</td>
-<td>true</td>
-<td>Inventory number of the vessel</td>
-</tr>
-<tr>
-<td>» ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware of the vessel</td>
-</tr>
-<tr>
-<td>» petrofabric_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrofabric of the vessel</td>
-</tr>
-<tr>
-<td>» petrofab_name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrofab name of the vessel</td>
-</tr>
-<tr>
-<td>» petrofab_visual_desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrofab visual desc of the vessel</td>
-</tr>
-<tr>
-<td>» chron</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Chron of the vessel</td>
-</tr>
-<tr>
-<td>» period</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Period of the vessel</td>
-</tr>
-<tr>
-<td>» manu_tech</td>
-<td>body</td>
-<td>[string]</td>
-<td>false</td>
-<td>Manu tech of the vessel</td>
-</tr>
-<tr>
-<td>» region_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Region tokens of the vessel</td>
-</tr>
-<tr>
-<td>» site_type</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Site type of the vessel</td>
-</tr>
-<tr>
-<td>» arch_context</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Arch context of the vessel</td>
-</tr>
-<tr>
-<td>» shape_name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Shape name of the vessel</td>
-</tr>
-<tr>
-<td>» shape_rtype</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Shape rtype of the vessel</td>
-</tr>
-<tr>
-<td>» site_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Site of the vessel</td>
-</tr>
-<tr>
-<td>» shape_sub_group</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Shape sub group of the vessel</td>
-</tr>
-<tr>
-<td>» functional_category_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Functional category of the vessel</td>
-</tr>
-<tr>
-<td>» height</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Height of the vessel</td>
-</tr>
-<tr>
-<td>» preserved_height</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Preserved height of the vessel</td>
-</tr>
-<tr>
-<td>» true_height</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>True height of the vessel</td>
-</tr>
-<tr>
-<td>» max_diameter</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Max diameter of the vessel</td>
-</tr>
-<tr>
-<td>» estimated_max_diameter</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Estimated max diameter of the vessel</td>
-</tr>
-<tr>
-<td>» true_max_diameter</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>True max diameter of the vessel</td>
-</tr>
-<tr>
-<td>» diameter_rim</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Diameter rim of the vessel</td>
-</tr>
-<tr>
-<td>» estimated_diameter_rim</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Estimated diameter rim of the vessel</td>
-</tr>
-<tr>
-<td>» true_diameter_rim</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>True diameter rim of the vessel</td>
-</tr>
-<tr>
-<td>» diameter_base</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Diameter base of the vessel</td>
-</tr>
-<tr>
-<td>» estimated_diameter_base</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Estimated diameter base of the vessel</td>
-</tr>
-<tr>
-<td>» true_diameter_base</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>True diameter base of the vessel</td>
-</tr>
-<tr>
-<td>» thickness</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Thickness of the vessel</td>
-</tr>
-<tr>
-<td>» color</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Color of the vessel</td>
-</tr>
-<tr>
-<td>» firing</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Firing of the vessel</td>
-</tr>
-<tr>
-<td>» surface_treatment</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Surface treatment of the vessel</td>
-</tr>
-<tr>
-<td>» contributor_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Contributor tokens of the vessel</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the vessel</td>
-</tr>
-<tr>
-<td>» privacy_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy tokens of the vessel</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the vessel</td>
-</tr>
-<tr>
-<td>» shape_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Shape of the vessel</td>
-</tr>
-</tbody></table>
-
-<h3 id="postapiv1vessels-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>201</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
-<td>Create a vessel</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1vessels'>getApiV1Vessels</h2>
-<p><a id="opIdgetApiV1Vessels"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/vessels'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/vessels</code></p>
-
-<p>Return all vessels</p>
-
-<h3 id="getapiv1vessels-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all vessels</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-petrographics">petrographics</h1>
-
-<p>Operations about petrographics</p>
-<h2 id='postapiv1petrographicsbulkinsert'>postApiV1PetrographicsBulkInsert</h2>
 <p><a id="opIdpostApiV1PetrographicsBulkInsert"></a></p>
 
 <blockquote>
@@ -2183,17 +2789,13 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/petrographics/bulk_insert'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/petrographics/bulk_insert'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>POST /api/v1/petrographics/bulk_insert</code></p>
-
-<p>Bulk insert petrographics</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
@@ -2265,196 +2867,189 @@ This operation does not require authentication
 </tr>
 </thead><tbody>
 <tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» petrographics[item_id]</td>
+<td>petrographics[item_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>true</td>
 <td>Item of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[thin_section_number]</td>
+<td>petrographics[thin_section_number]</td>
 <td>body</td>
 <td>[string]</td>
 <td>true</td>
 <td>Thin section number of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[geological_features]</td>
+<td>petrographics[geological_features]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Geological features of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[soil_type]</td>
+<td>petrographics[soil_type]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Soil type of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[desc]</td>
+<td>petrographics[desc]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Desc of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[matrix_type]</td>
+<td>petrographics[matrix_type]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Matrix type of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[matrix_amt]</td>
+<td>petrographics[matrix_amt]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Matrix amt of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[inclusion_type]</td>
+<td>petrographics[inclusion_type]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Inclusion type of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[inclusion_amt]</td>
+<td>petrographics[inclusion_amt]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Inclusion amt of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[voids_shape]</td>
+<td>petrographics[voids_shape]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Voids shape of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[voids_amt]</td>
+<td>petrographics[voids_amt]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Voids amt of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[ware_id]</td>
+<td>petrographics[ware_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Ware of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[privacy_status]</td>
+<td>petrographics[privacy_status]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Privacy status of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[petrofabric_id]</td>
+<td>petrographics[petrofabric_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Petrofabric of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[ware_visual_desc]</td>
+<td>petrographics[ware_visual_desc]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Ware visual desc of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[petrofab_visual_desc]</td>
+<td>petrographics[petrofab_visual_desc]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Petrofab visual desc of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[local_petrographic_group]</td>
+<td>petrographics[local_petrographic_group]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Local petrographic group of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_id]</td>
+<td>petrographics[vessel_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_site_id]</td>
+<td>petrographics[vessel_site_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel site of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_chron]</td>
+<td>petrographics[vessel_chron]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel chron of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_period]</td>
+<td>petrographics[vessel_period]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel period of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_shape_name]</td>
+<td>petrographics[vessel_shape_name]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel shape name of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_functional_category_id]</td>
+<td>petrographics[vessel_functional_category_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel functional category of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[skip_callbacks]</td>
+<td>petrographics[skip_callbacks]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Skip callbacks of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_ware_id]</td>
+<td>petrographics[vessel_ware_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel ware of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[vessel_petrofabric_id]</td>
+<td>petrographics[vessel_petrofabric_id]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
 <td>Vessel petrofabric of the petrographic</td>
 </tr>
 <tr>
-<td>» petrographics[acknowledgement]</td>
+<td>petrographics[acknowledgement]</td>
 <td>body</td>
 <td>[string]</td>
 <td>false</td>
@@ -2479,305 +3074,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-kilns">Kilns (Workshops)</h1>
+<h2 id='list-all-kilns'>List all Kilns</h2>
+<p><code>GET /api/v1/kilns</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='patchapiv1petrographicsid'>patchApiV1PetrographicsId</h2>
-<p><a id="opIdpatchApiV1PetrographicsId"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'/localhost:3000/api/v1/petrographics/{id}'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>PATCH /api/v1/petrographics/{id}</code></p>
-
-<p>Update a petrographic</p>
-
-<blockquote>
-<p>Body parameter</p>
-</blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">geological_features</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">soil_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">matrix_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">matrix_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">inclusion_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">inclusion_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">voids_shape</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">voids_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">item_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">thin_section_number</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">local_petrographic_group</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_site_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_chron</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_shape_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">skip_callbacks</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-
-</code></pre></div>
-<h3 id="patchapiv1petrographicsid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>integer(int32)</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>false</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» geological_features</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Geological features of the petrographic</td>
-</tr>
-<tr>
-<td>» soil_type</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Soil type of the petrographic</td>
-</tr>
-<tr>
-<td>» desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Desc of the petrographic</td>
-</tr>
-<tr>
-<td>» matrix_type</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Matrix type of the petrographic</td>
-</tr>
-<tr>
-<td>» matrix_amt</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Matrix amt of the petrographic</td>
-</tr>
-<tr>
-<td>» inclusion_type</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Inclusion type of the petrographic</td>
-</tr>
-<tr>
-<td>» inclusion_amt</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Inclusion amt of the petrographic</td>
-</tr>
-<tr>
-<td>» voids_shape</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Voids shape of the petrographic</td>
-</tr>
-<tr>
-<td>» voids_amt</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Voids amt of the petrographic</td>
-</tr>
-<tr>
-<td>» item_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Item of the petrographic</td>
-</tr>
-<tr>
-<td>» ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware of the petrographic</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the petrographic</td>
-</tr>
-<tr>
-<td>» thin_section_number</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Thin section number of the petrographic</td>
-</tr>
-<tr>
-<td>» petrofabric_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrofabric of the petrographic</td>
-</tr>
-<tr>
-<td>» ware_visual_desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware visual desc of the petrographic</td>
-</tr>
-<tr>
-<td>» petrofab_visual_desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrofab visual desc of the petrographic</td>
-</tr>
-<tr>
-<td>» local_petrographic_group</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Local petrographic group of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_site_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel site of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_chron</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel chron of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_period</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel period of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_shape_name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel shape name of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_functional_category_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel functional category of the petrographic</td>
-</tr>
-<tr>
-<td>» skip_callbacks</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Skip callbacks of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel ware of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_petrofabric_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel petrofabric of the petrographic</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the petrographic</td>
-</tr>
-</tbody></table>
-
-<h3 id="patchapiv1petrographicsid-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Update a petrographic</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1petrographicsid'>getApiV1PetrographicsId</h2>
-<p><a id="opIdgetApiV1PetrographicsId"></a></p>
+<p><a id="opIdgetApiV1Kilns"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -2785,18 +3086,51 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/petrographics/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/kilns'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/petrographics/{id}</code></p>
+<h3 id="getapiv1kilns-responses">Responses</h3>
 
-<p>Return a petrographic</p>
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return all kilns</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='get-a-kiln'>Get a Kiln</h2>
+<p><a id="opIdgetApiV1KilnsId"></a></p>
 
-<h3 id="getapiv1petrographicsid-parameters">Parameters</h3>
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/kilns/{id}'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<p><code>GET /api/v1/kilns/{id}</code></p>
+
+<p>Return a kiln</p>
+
+<h3 id="getapiv1kilnsid-parameters">Parameters</h3>
 
 <table><thead>
 <tr>
@@ -2812,11 +3146,11 @@ This operation does not require authentication
 <td>path</td>
 <td>string</td>
 <td>true</td>
-<td>ID of the petrographic</td>
+<td>ID of the kiln</td>
 </tr>
 </tbody></table>
 
-<h3 id="getapiv1petrographicsid-responses">Responses</h3>
+<h3 id="getapiv1kilnsid-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -2829,16 +3163,14 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return a petrographic</td>
+<td>Return a kiln</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='create-a-kiln'>Create a Kiln</h2>
+<p><code>POST /api/v1/kilns</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='postapiv1petrographics'>postApiV1Petrographics</h2>
-<p><a id="opIdpostApiV1Petrographics"></a></p>
+<p><a id="opIdpostApiV1Kilns"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -2850,50 +3182,36 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/petrographics'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'https://www.levantineceramics.org/api/v1/kilns'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>POST /api/v1/petrographics</code></p>
-
-<p>Create a petrographic</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">item_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">thin_section_number</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">geological_features</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">soil_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">matrix_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">matrix_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">inclusion_type</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">inclusion_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">voids_shape</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">voids_amt</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
+<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">location</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">old_region_id</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrofab_visual_desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">local_petrographic_group</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_site_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_chron</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_shape_name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_functional_category_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">skip_callbacks</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">vessel_petrofabric_id</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">misc_box</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">start_year</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">end_year</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">workshop_location</span><span class="pi">:</span> <span class="s">string</span>
 <span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">ware_tokens</span><span class="pi">:</span> <span class="s">string</span>
+<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
 
 </code></pre></div>
-<h3 id="postapiv1petrographics-parameters">Parameters</h3>
+<h3 id="postapiv1kilns-parameters">Parameters</h3>
 
 <table><thead>
 <tr>
@@ -2905,204 +3223,127 @@ This operation does not require authentication
 </tr>
 </thead><tbody>
 <tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» item_id</td>
+<td>name</td>
 <td>body</td>
 <td>string</td>
 <td>true</td>
-<td>Item of the petrographic</td>
+<td>Name of the kiln</td>
 </tr>
 <tr>
-<td>» thin_section_number</td>
-<td>body</td>
-<td>string</td>
-<td>true</td>
-<td>Thin section number of the petrographic</td>
-</tr>
-<tr>
-<td>» geological_features</td>
+<td>location</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Geological features of the petrographic</td>
+<td>Location of the kiln</td>
 </tr>
 <tr>
-<td>» soil_type</td>
+<td>chron</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Soil type of the petrographic</td>
+<td>Chron of the kiln</td>
 </tr>
 <tr>
-<td>» desc</td>
+<td>site_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Desc of the petrographic</td>
+<td>Site of the kiln</td>
 </tr>
 <tr>
-<td>» matrix_type</td>
+<td>old_region_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Matrix type of the petrographic</td>
+<td>Old region of the kiln</td>
 </tr>
 <tr>
-<td>» matrix_amt</td>
+<td>privacy_status</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Matrix amt of the petrographic</td>
+<td>Privacy status of the kiln</td>
 </tr>
 <tr>
-<td>» inclusion_type</td>
+<td>misc_box</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Inclusion type of the petrographic</td>
+<td>Misc box of the kiln</td>
 </tr>
 <tr>
-<td>» inclusion_amt</td>
+<td>period</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Inclusion amt of the petrographic</td>
+<td>Period of the kiln</td>
 </tr>
 <tr>
-<td>» voids_shape</td>
+<td>start_year</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Voids shape of the petrographic</td>
+<td>Start year of the kiln</td>
 </tr>
 <tr>
-<td>» voids_amt</td>
+<td>end_year</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Voids amt of the petrographic</td>
+<td>End year of the kiln</td>
 </tr>
 <tr>
-<td>» ware_id</td>
+<td>workshop_location</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Ware of the petrographic</td>
+<td>Workshop location of the kiln</td>
 </tr>
 <tr>
-<td>» privacy_status</td>
+<td>acknowledgement</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Privacy status of the petrographic</td>
+<td>Acknowledgement of the kiln</td>
 </tr>
 <tr>
-<td>» petrofabric_id</td>
+<td>contributor_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Petrofabric of the petrographic</td>
+<td>Contributor tokens of the kiln</td>
 </tr>
 <tr>
-<td>» ware_visual_desc</td>
+<td>privacy_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Ware visual desc of the petrographic</td>
+<td>Privacy tokens of the kiln</td>
 </tr>
 <tr>
-<td>» petrofab_visual_desc</td>
+<td>region_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Petrofab visual desc of the petrographic</td>
+<td>Region tokens of the kiln</td>
 </tr>
 <tr>
-<td>» local_petrographic_group</td>
+<td>ware_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Local petrographic group of the petrographic</td>
+<td>Ware tokens of the kiln</td>
 </tr>
 <tr>
-<td>» vessel_id</td>
+<td>save_version</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
-<td>Vessel of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_site_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel site of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_chron</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel chron of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_period</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel period of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_shape_name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel shape name of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_functional_category_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel functional category of the petrographic</td>
-</tr>
-<tr>
-<td>» skip_callbacks</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Skip callbacks of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel ware of the petrographic</td>
-</tr>
-<tr>
-<td>» vessel_petrofabric_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Vessel petrofabric of the petrographic</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the petrographic</td>
+<td>Save version of the kiln</td>
 </tr>
 </tbody></table>
 
-<h3 id="postapiv1petrographics-responses">Responses</h3>
+<h3 id="postapiv1kilns-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -3115,60 +3356,13 @@ This operation does not require authentication
 <tr>
 <td>201</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
-<td>Create a petrographic</td>
+<td>Create a kiln</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='update-a-kiln'>Update a Kiln</h2>
+<p><code>PATCH /api/v1/kilns/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1petrographics'>getApiV1Petrographics</h2>
-<p><a id="opIdgetApiV1Petrographics"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/petrographics'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/petrographics</code></p>
-
-<p>Return all petrographics</p>
-
-<h3 id="getapiv1petrographics-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all petrographics</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-kilns">kilns</h1>
-
-<p>Operations about kilns</p>
-<h2 id='patchapiv1kilnsid'>patchApiV1KilnsId</h2>
 <p><a id="opIdpatchApiV1KilnsId"></a></p>
 
 <blockquote>
@@ -3181,17 +3375,13 @@ This operation does not require authentication
   <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
 <span class="p">}</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'/localhost:3000/api/v1/kilns/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'https://www.levantineceramics.org/api/v1/kilns/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>PATCH /api/v1/kilns/{id}</code></p>
-
-<p>Update a kiln</p>
-
 <blockquote>
 <p>Body parameter</p>
 </blockquote>
@@ -3240,119 +3430,119 @@ This operation does not require authentication
 <td>none</td>
 </tr>
 <tr>
-<td>» location</td>
+<td>location</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Location of the kiln</td>
 </tr>
 <tr>
-<td>» chron</td>
+<td>chron</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Chron of the kiln</td>
 </tr>
 <tr>
-<td>» site_id</td>
+<td>site_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Site of the kiln</td>
 </tr>
 <tr>
-<td>» old_region_id</td>
+<td>old_region_id</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Old region of the kiln</td>
 </tr>
 <tr>
-<td>» name</td>
+<td>name</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Name of the kiln</td>
 </tr>
 <tr>
-<td>» privacy_status</td>
+<td>privacy_status</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Privacy status of the kiln</td>
 </tr>
 <tr>
-<td>» misc_box</td>
+<td>misc_box</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Misc box of the kiln</td>
 </tr>
 <tr>
-<td>» period</td>
+<td>period</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Period of the kiln</td>
 </tr>
 <tr>
-<td>» start_year</td>
+<td>start_year</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Start year of the kiln</td>
 </tr>
 <tr>
-<td>» end_year</td>
+<td>end_year</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>End year of the kiln</td>
 </tr>
 <tr>
-<td>» workshop_location</td>
+<td>workshop_location</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Workshop location of the kiln</td>
 </tr>
 <tr>
-<td>» acknowledgement</td>
+<td>acknowledgement</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Acknowledgement of the kiln</td>
 </tr>
 <tr>
-<td>» contributor_tokens</td>
+<td>contributor_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Contributor tokens of the kiln</td>
 </tr>
 <tr>
-<td>» privacy_tokens</td>
+<td>privacy_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Privacy tokens of the kiln</td>
 </tr>
 <tr>
-<td>» region_tokens</td>
+<td>region_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Region tokens of the kiln</td>
 </tr>
 <tr>
-<td>» ware_tokens</td>
+<td>ware_tokens</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
 <td>Ware tokens of the kiln</td>
 </tr>
 <tr>
-<td>» save_version</td>
+<td>save_version</td>
 <td>body</td>
 <td>string</td>
 <td>false</td>
@@ -3377,12 +3567,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-shapes">Shapes</h1>
+<h2 id='list-all-shapes'>List all Shapes</h2>
+<p><code>GET /api/v1/shapes</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1kilnsid'>getApiV1KilnsId</h2>
-<p><a id="opIdgetApiV1KilnsId"></a></p>
+<p><a id="opIdgetApiV1Shapes"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -3390,38 +3579,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/kilns/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/shapes'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/kilns/{id}</code></p>
-
-<p>Return a kiln</p>
-
-<h3 id="getapiv1kilnsid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>string</td>
-<td>true</td>
-<td>ID of the kiln</td>
-</tr>
-</tbody></table>
-
-<h3 id="getapiv1kilnsid-responses">Responses</h3>
+<h3 id="getapiv1shapes-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -3434,735 +3599,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return a kiln</td>
+<td>Return all shapes</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-shape'>Get a Shape</h2>
+<p><code>GET /api/v1/shapes/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='postapiv1kilns'>postApiV1Kilns</h2>
-<p><a id="opIdpostApiV1Kilns"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/kilns'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>POST /api/v1/kilns</code></p>
-
-<p>Create a kiln</p>
-
-<blockquote>
-<p>Body parameter</p>
-</blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">location</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">chron</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">site_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">old_region_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">misc_box</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">period</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">start_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">end_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">workshop_location</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">contributor_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">region_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_tokens</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
-
-</code></pre></div>
-<h3 id="postapiv1kilns-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» name</td>
-<td>body</td>
-<td>string</td>
-<td>true</td>
-<td>Name of the kiln</td>
-</tr>
-<tr>
-<td>» location</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Location of the kiln</td>
-</tr>
-<tr>
-<td>» chron</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Chron of the kiln</td>
-</tr>
-<tr>
-<td>» site_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Site of the kiln</td>
-</tr>
-<tr>
-<td>» old_region_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Old region of the kiln</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the kiln</td>
-</tr>
-<tr>
-<td>» misc_box</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Misc box of the kiln</td>
-</tr>
-<tr>
-<td>» period</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Period of the kiln</td>
-</tr>
-<tr>
-<td>» start_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Start year of the kiln</td>
-</tr>
-<tr>
-<td>» end_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>End year of the kiln</td>
-</tr>
-<tr>
-<td>» workshop_location</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Workshop location of the kiln</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the kiln</td>
-</tr>
-<tr>
-<td>» contributor_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Contributor tokens of the kiln</td>
-</tr>
-<tr>
-<td>» privacy_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy tokens of the kiln</td>
-</tr>
-<tr>
-<td>» region_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Region tokens of the kiln</td>
-</tr>
-<tr>
-<td>» ware_tokens</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware tokens of the kiln</td>
-</tr>
-<tr>
-<td>» save_version</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Save version of the kiln</td>
-</tr>
-</tbody></table>
-
-<h3 id="postapiv1kilns-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>201</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
-<td>Create a kiln</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1kilns'>getApiV1Kilns</h2>
-<p><a id="opIdgetApiV1Kilns"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/kilns'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/kilns</code></p>
-
-<p>Return all kilns</p>
-
-<h3 id="getapiv1kilns-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all kilns</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-petrofabrics">petrofabrics</h1>
-
-<p>Operations about petrofabrics</p>
-<h2 id='patchapiv1petrofabricsid'>patchApiV1PetrofabricsId</h2>
-<p><a id="opIdpatchApiV1PetrofabricsId"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">patch</span> <span class="s1">'/localhost:3000/api/v1/petrofabrics/{id}'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>PATCH /api/v1/petrofabrics/{id}</code></p>
-
-<p>Update a petrofabric</p>
-
-<blockquote>
-<p>Body parameter</p>
-</blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrographic_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">raw_material</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">geo_form</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">workshop_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">start_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">end_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">definition</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
-
-</code></pre></div>
-<h3 id="patchapiv1petrofabricsid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>string</td>
-<td>true</td>
-<td>Id of the petrofabric</td>
-</tr>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>false</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» name</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Name of the petrofabric</td>
-</tr>
-<tr>
-<td>» desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Desc of the petrofabric</td>
-</tr>
-<tr>
-<td>» petrographic_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrographic of the petrofabric</td>
-</tr>
-<tr>
-<td>» raw_material</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Raw material of the petrofabric</td>
-</tr>
-<tr>
-<td>» geo_form</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Geo form of the petrofabric</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the petrofabric</td>
-</tr>
-<tr>
-<td>» ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware of the petrofabric</td>
-</tr>
-<tr>
-<td>» workshop_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Workshop of the petrofabric</td>
-</tr>
-<tr>
-<td>» start_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Start year of the petrofabric</td>
-</tr>
-<tr>
-<td>» end_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>End year of the petrofabric</td>
-</tr>
-<tr>
-<td>» definition</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Definition of the petrofabric</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the petrofabric</td>
-</tr>
-<tr>
-<td>» save_version</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Save version of the petrofabric</td>
-</tr>
-</tbody></table>
-
-<h3 id="patchapiv1petrofabricsid-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Update a petrofabric</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1petrofabricsid'>getApiV1PetrofabricsId</h2>
-<p><a id="opIdgetApiV1PetrofabricsId"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/petrofabrics/{id}'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/petrofabrics/{id}</code></p>
-
-<p>Return a petrofabric</p>
-
-<h3 id="getapiv1petrofabricsid-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>id</td>
-<td>path</td>
-<td>string</td>
-<td>true</td>
-<td>ID of the petrofabric</td>
-</tr>
-</tbody></table>
-
-<h3 id="getapiv1petrofabricsid-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return a petrofabric</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='postapiv1petrofabrics'>postApiV1Petrofabrics</h2>
-<p><a id="opIdpostApiV1Petrofabrics"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-  <span class="s1">'Content-Type'</span> <span class="o">=&gt;</span> <span class="s1">'application/x-www-form-urlencoded'</span>
-<span class="p">}</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">post</span> <span class="s1">'/localhost:3000/api/v1/petrofabrics'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">},</span> <span class="ss">headers: </span><span class="n">headers</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>POST /api/v1/petrofabrics</code></p>
-
-<p>Create a petrofabric</p>
-
-<blockquote>
-<p>Body parameter</p>
-</blockquote>
-<div class="highlight"><pre class="highlight yaml tab-yaml"><code><span class="na">name</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">desc</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">petrographic_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">raw_material</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">geo_form</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">privacy_status</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">ware_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">workshop_id</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">start_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">end_year</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">definition</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">acknowledgement</span><span class="pi">:</span> <span class="s">string</span>
-<span class="na">save_version</span><span class="pi">:</span> <span class="s">string</span>
-
-</code></pre></div>
-<h3 id="postapiv1petrofabrics-parameters">Parameters</h3>
-
-<table><thead>
-<tr>
-<th>Name</th>
-<th>In</th>
-<th>Type</th>
-<th>Required</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>body</td>
-<td>body</td>
-<td>object</td>
-<td>true</td>
-<td>none</td>
-</tr>
-<tr>
-<td>» name</td>
-<td>body</td>
-<td>string</td>
-<td>true</td>
-<td>Name of the petrofabric</td>
-</tr>
-<tr>
-<td>» id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Id of the petrofabric</td>
-</tr>
-<tr>
-<td>» desc</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Desc of the petrofabric</td>
-</tr>
-<tr>
-<td>» petrographic_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Petrographic of the petrofabric</td>
-</tr>
-<tr>
-<td>» raw_material</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Raw material of the petrofabric</td>
-</tr>
-<tr>
-<td>» geo_form</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Geo form of the petrofabric</td>
-</tr>
-<tr>
-<td>» privacy_status</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Privacy status of the petrofabric</td>
-</tr>
-<tr>
-<td>» ware_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Ware of the petrofabric</td>
-</tr>
-<tr>
-<td>» workshop_id</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Workshop of the petrofabric</td>
-</tr>
-<tr>
-<td>» start_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Start year of the petrofabric</td>
-</tr>
-<tr>
-<td>» end_year</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>End year of the petrofabric</td>
-</tr>
-<tr>
-<td>» definition</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Definition of the petrofabric</td>
-</tr>
-<tr>
-<td>» acknowledgement</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Acknowledgement of the petrofabric</td>
-</tr>
-<tr>
-<td>» save_version</td>
-<td>body</td>
-<td>string</td>
-<td>false</td>
-<td>Save version of the petrofabric</td>
-</tr>
-</tbody></table>
-
-<h3 id="postapiv1petrofabrics-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>201</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.2">Created</a></td>
-<td>Create a petrofabric</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1petrofabrics'>getApiV1Petrofabrics</h2>
-<p><a id="opIdgetApiV1Petrofabrics"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/petrofabrics'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/petrofabrics</code></p>
-
-<p>Return all petrofabrics</p>
-
-<h3 id="getapiv1petrofabrics-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all petrofabrics</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-shapes">shapes</h1>
-
-<p>Operations about shapes</p>
-<h2 id='getapiv1shapesid'>getApiV1ShapesId</h2>
 <p><a id="opIdgetApiV1ShapesId"></a></p>
 
 <blockquote>
@@ -4171,17 +3614,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/shapes/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/shapes/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/shapes/{id}</code></p>
-
-<p>Return a shape</p>
-
 <h3 id="getapiv1shapesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4219,12 +3658,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-sites">Sites</h1>
+<h2 id='list-all-sites'>List all Sites</h2>
+<p><code>GET /api/v1/sites</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1shapes'>getApiV1Shapes</h2>
-<p><a id="opIdgetApiV1Shapes"></a></p>
+<p><a id="opIdgetApiV1Sites"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4232,18 +3670,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/shapes'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/sites'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/shapes</code></p>
-
-<p>Return all shapes</p>
-
-<h3 id="getapiv1shapes-responses">Responses</h3>
+<h3 id="getapiv1sites-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4256,19 +3690,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all shapes</td>
+<td>Return all sites</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-site'>Get a Site</h2>
+<p><code>GET /api/v1/sites/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-sites">sites</h1>
-
-<p>Operations about sites</p>
-<h2 id='getapiv1sitesid'>getApiV1SitesId</h2>
 <p><a id="opIdgetApiV1SitesId"></a></p>
 
 <blockquote>
@@ -4277,17 +3705,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/sites/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/sites/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/sites/{id}</code></p>
-
-<p>Return a site</p>
-
 <h3 id="getapiv1sitesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4325,12 +3749,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-references">References</h1>
+<h2 id='list-all-references'>List all References</h2>
+<p><code>GET /api/v1/references</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1sites'>getApiV1Sites</h2>
-<p><a id="opIdgetApiV1Sites"></a></p>
+<p><a id="opIdgetApiV1References"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4338,18 +3761,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/sites'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/references'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/sites</code></p>
-
-<p>Return all sites</p>
-
-<h3 id="getapiv1sites-responses">Responses</h3>
+<h3 id="getapiv1references-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4362,19 +3781,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all sites</td>
+<td>Return all references</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-reference'>Get a Reference</h2>
+<p><code>GET /api/v1/references/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-references">references</h1>
-
-<p>Operations about references</p>
-<h2 id='getapiv1referencesid'>getApiV1ReferencesId</h2>
 <p><a id="opIdgetApiV1ReferencesId"></a></p>
 
 <blockquote>
@@ -4383,17 +3796,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/references/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/references/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/references/{id}</code></p>
-
-<p>Return a reference</p>
-
 <h3 id="getapiv1referencesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4431,12 +3840,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-periods">Periods</h1>
+<h2 id='get-all-periods'>Get all Periods</h2>
+<p><code>GET /api/v1/periods</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1references'>getApiV1References</h2>
-<p><a id="opIdgetApiV1References"></a></p>
+<p><a id="opIdgetApiV1Periods"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4444,18 +3852,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/references'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/periods'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/references</code></p>
-
-<p>Return all references</p>
-
-<h3 id="getapiv1references-responses">Responses</h3>
+<h3 id="getapiv1periods-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4468,19 +3872,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all references</td>
+<td>Return all periods</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-period'>Get a Period</h2>
+<p><code>GET /api/v1/periods/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-periods">periods</h1>
-
-<p>Operations about periods</p>
-<h2 id='getapiv1periodsid'>getApiV1PeriodsId</h2>
 <p><a id="opIdgetApiV1PeriodsId"></a></p>
 
 <blockquote>
@@ -4489,17 +3887,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/periods/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/periods/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/periods/{id}</code></p>
-
-<p>Return a period</p>
-
 <h3 id="getapiv1periodsid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4537,12 +3931,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-period_categories">Period Categories</h1>
+<h2 id='get-all-period-categories'>Get all Period Categories</h2>
+<p><code>GET /api/v1/period_categories</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1periods'>getApiV1Periods</h2>
-<p><a id="opIdgetApiV1Periods"></a></p>
+<p><a id="opIdgetApiV1PeriodCategories"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4550,18 +3943,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/periods'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/period_categories'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/periods</code></p>
-
-<p>Return all periods</p>
-
-<h3 id="getapiv1periods-responses">Responses</h3>
+<h3 id="getapiv1periodcategories-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4574,19 +3963,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all periods</td>
+<td>Return all Period categories</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-period-category'>Get a Period Category</h2>
+<p><code>GET /api/v1/period_categories/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-period_categories">period_categories</h1>
-
-<p>Operations about period_categories</p>
-<h2 id='getapiv1periodcategoriesid'>getApiV1PeriodCategoriesId</h2>
 <p><a id="opIdgetApiV1PeriodCategoriesId"></a></p>
 
 <blockquote>
@@ -4595,17 +3978,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/period_categories/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/period_categories/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/period_categories/{id}</code></p>
-
-<p>Return a Period category</p>
-
 <h3 id="getapiv1periodcategoriesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4643,12 +4022,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-images">Images</h1>
+<h2 id='get-all-images'>Get all Images</h2>
+<p><code>GET /api/v1/images</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1periodcategories'>getApiV1PeriodCategories</h2>
-<p><a id="opIdgetApiV1PeriodCategories"></a></p>
+<p><a id="opIdgetApiV1Images"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4656,18 +4034,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/period_categories'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/images'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/period_categories</code></p>
-
-<p>Return all Period categories</p>
-
-<h3 id="getapiv1periodcategories-responses">Responses</h3>
+<h3 id="getapiv1images-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4680,19 +4054,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all Period categories</td>
+<td>Return all Images</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-an-image'>Get an Image</h2>
+<p><code>GET /api/v1/images/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-images">images</h1>
-
-<p>Operations about images</p>
-<h2 id='getapiv1imagesid'>getApiV1ImagesId</h2>
 <p><a id="opIdgetApiV1ImagesId"></a></p>
 
 <blockquote>
@@ -4701,17 +4069,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/images/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/images/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/images/{id}</code></p>
-
-<p>Return a Image</p>
-
 <h3 id="getapiv1imagesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4749,12 +4113,11 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-functional_categories">Functional Categories</h1>
+<h2 id='get-all-functional-categories'>Get all Functional Categories</h2>
+<p><code>GET /api/v1/functional_categories</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1images'>getApiV1Images</h2>
-<p><a id="opIdgetApiV1Images"></a></p>
+<p><a id="opIdgetApiV1FunctionalCategories"></a></p>
 
 <blockquote>
 <p>Code samples</p>
@@ -4762,18 +4125,14 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/images'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/functional_categories'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/images</code></p>
-
-<p>Return all Images</p>
-
-<h3 id="getapiv1images-responses">Responses</h3>
+<h3 id="getapiv1functionalcategories-responses">Responses</h3>
 
 <table><thead>
 <tr>
@@ -4786,19 +4145,13 @@ This operation does not require authentication
 <tr>
 <td>200</td>
 <td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all Images</td>
+<td>Return all Functional categories</td>
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-a-functional-category'>Get a Functional Category</h2>
+<p><code>GET /api/v1/functional_categories/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-functional_categories">functional_categories</h1>
-
-<p>Operations about functional_categories</p>
-<h2 id='getapiv1functionalcategoriesid'>getApiV1FunctionalCategoriesId</h2>
 <p><a id="opIdgetApiV1FunctionalCategoriesId"></a></p>
 
 <blockquote>
@@ -4807,17 +4160,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/functional_categories/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/functional_categories/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/functional_categories/{id}</code></p>
-
-<p>Return a Functional category</p>
-
 <h3 id="getapiv1functionalcategoriesid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4855,56 +4204,10 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-contributors">Contributors</h1>
+<h2 id='get-a-contributor'>Get a Contributor</h2>
+<p><code>GET /api/v1/contributors/{id}</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1functionalcategories'>getApiV1FunctionalCategories</h2>
-<p><a id="opIdgetApiV1FunctionalCategories"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/functional_categories'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/functional_categories</code></p>
-
-<p>Return all Functional categories</p>
-
-<h3 id="getapiv1functionalcategories-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all Functional categories</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-<h1 id="api-title-contributors">contributors</h1>
-
-<p>Operations about contributors</p>
-<h2 id='getapiv1contributorsid'>getApiV1ContributorsId</h2>
 <p><a id="opIdgetApiV1ContributorsId"></a></p>
 
 <blockquote>
@@ -4913,17 +4216,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/contributors/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/contributors/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/contributors/{id}</code></p>
-
-<p>Return a Contributor</p>
-
 <h3 id="getapiv1contributorsid-parameters">Parameters</h3>
 
 <table><thead>
@@ -4961,11 +4260,9 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h2 id='get-all-contributors'>Get all Contributors</h2>
+<p><code>GET /api/v1/contributors</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1contributors'>getApiV1Contributors</h2>
 <p><a id="opIdgetApiV1Contributors"></a></p>
 
 <blockquote>
@@ -4974,17 +4271,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/contributors'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/contributors'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/contributors</code></p>
-
-<p>Return all Contributors</p>
-
 <h3 id="getapiv1contributors-responses">Responses</h3>
 
 <table><thead>
@@ -5002,15 +4295,45 @@ This operation does not require authentication
 <td>None</td>
 </tr>
 </tbody></table>
+<h1 id="api-title-citations">Citations</h1>
+<h2 id='get-all-citations'>Get all Citations</h2>
+<p><code>GET /api/v1/citations</code></p>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
+<p><a id="opIdgetApiV1Citations"></a></p>
 
-<h1 id="api-title-citations">citations</h1>
+<blockquote>
+<p>Code samples</p>
+</blockquote>
+<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
 
-<p>Operations about citations</p>
-<h2 id='getapiv1citationsid'>getApiV1CitationsId</h2>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/citations'</span><span class="p">,</span>
+  <span class="ss">params: </span><span class="p">{</span>
+  <span class="p">}</span>
+
+<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+
+</code></pre></div>
+<h3 id="getapiv1citations-responses">Responses</h3>
+
+<table><thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+<th>Description</th>
+<th>Schema</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>200</td>
+<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
+<td>Return all Citations</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id='get-a-citation'>Get a Citation</h2>
+<p><code>GET /api/v1/citations/{id}</code></p>
+
 <p><a id="opIdgetApiV1CitationsId"></a></p>
 
 <blockquote>
@@ -5019,17 +4342,13 @@ This operation does not require authentication
 <div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/citations/{id}'</span><span class="p">,</span>
+<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://www.levantineceramics.org/api/v1/citations/{id}'</span><span class="p">,</span>
   <span class="ss">params: </span><span class="p">{</span>
   <span class="p">}</span>
 
 <span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
 </code></pre></div>
-<p><code>GET /api/v1/citations/{id}</code></p>
-
-<p>Return a Citation</p>
-
 <h3 id="getapiv1citationsid-parameters">Parameters</h3>
 
 <table><thead>
@@ -5068,56 +4387,11 @@ This operation does not require authentication
 </tr>
 </tbody></table>
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-<h2 id='getapiv1citations'>getApiV1Citations</h2>
-<p><a id="opIdgetApiV1Citations"></a></p>
-
-<blockquote>
-<p>Code samples</p>
-</blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'rest-client'</span>
-<span class="nb">require</span> <span class="s1">'json'</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="no">RestClient</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'/localhost:3000/api/v1/citations'</span><span class="p">,</span>
-  <span class="ss">params: </span><span class="p">{</span>
-  <span class="p">}</span>
-
-<span class="nb">p</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-
-</code></pre></div>
-<p><code>GET /api/v1/citations</code></p>
-
-<p>Return all Citations</p>
-
-<h3 id="getapiv1citations-responses">Responses</h3>
-
-<table><thead>
-<tr>
-<th>Status</th>
-<th>Meaning</th>
-<th>Description</th>
-<th>Schema</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>200</td>
-<td><a href="https://tools.ietf.org/html/rfc7231#section-6.3.1">OK</a></td>
-<td>Return all Citations</td>
-<td>None</td>
-</tr>
-</tbody></table>
-
-<aside class="success">
-This operation does not require authentication
-</aside>
-
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="ruby">Ruby</a>
-                <a href="#" data-language-name="curl">Shell</a>
+                <a href="#" data-language-name="ruby">ruby</a>
+                <a href="#" data-language-name="shell">shell</a>
           </div>
       </div>
     </div>
