@@ -2,7 +2,7 @@
 https://github.com/slatedocs/slate
 
 # Github page
-- [] @stwart Update doc for github pages
+- [ ] @stwart Update doc for github pages
 
 # Starting server
 bundle exec middleman server
